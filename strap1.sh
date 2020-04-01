@@ -3,7 +3,7 @@
 
 echo "trizen for AUR support"
 sudo pacman -S trizen 
-trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch zsh snapd yadm screenfetch neofetch emacs nano git-summary
+trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack
 echo "Enabling snapd support"
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
