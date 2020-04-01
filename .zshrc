@@ -156,3 +156,33 @@ alias nmap_web_safe_osscan="sudo nmap -p 80,443 -O -v --osscan-guess --fuzzy "
 alias nmap_ping_scan="nmap -n -sP"
 
 
+alias findr='\fd'
+#function for find strings in files
+fif() {
+    findr --type f $1|xargs grep -n -i  $2
+}
+
+sourceZsh(){
+    source ~/.zshrc
+    backupToDrive ~/.zshrc
+    echo "New .zshrc sourced."
+}
+
+editZsh(){
+    updateYadm
+    vim ~/.zshrc
+    source ~/.zshrc
+    backupToDrive ~/.zshrc
+    echo "New .zshrc sourced."
+}
+
+updateYadm() {
+    yadm pull
+}
+
+backupToDrive(){
+    yadm add ~/.zshrc
+    yadm commit -m "updated .zshrc"
+    yadm push
+    echo "New .zshrc backed up to yadm."
+}
