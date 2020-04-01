@@ -170,7 +170,7 @@ sourceZsh(){
 
 editZsh(){
     updateYadm
-    vim ~/.zshrc
+    nano ~/.zshrc
     source ~/.zshrc
     backupToDrive ~/.zshrc
     echo "New .zshrc sourced."
@@ -186,3 +186,4 @@ backupToDrive(){
     yadm push
     echo "New .zshrc backed up to yadm."
 }
+
