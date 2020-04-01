@@ -44,7 +44,7 @@ antigen bundle history
 antigen bundle prompt
 antigen bundle utility
 antigen bundle completion
-antigen bundle git
+#antigen bundle git
 antigen bundle tmuxinator
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle rupa/z
@@ -63,7 +63,7 @@ antigen bundle nmap
 antigen bundle archlinux
 antigen bundle jimbob343/zsh-potato/
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
+#antigen bundle git
 antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
@@ -188,7 +188,7 @@ backupToDrive(){
 }
 
 # Use - to go back to previous directory
-alias -- -='cd -'
+#alias -- -='cd -'
 
 # Taken from the tmux plugin
 alias ta="tmux attach -t"
@@ -208,3 +208,6 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
+
+alias grep='grep --color=always -i'
+export  GREP_COLOR='7;33;34'
