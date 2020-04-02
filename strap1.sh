@@ -10,6 +10,7 @@ echo "Enabling snapd support"
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 echo "yadm pull of .dot files"
+curl -L git.io/antigen > antigen.zsh
 yadm clone https://github.com/jimbob343/zsh
 yadm status
 echo "DOOM emacs"
