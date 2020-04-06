@@ -23,8 +23,43 @@ antigen bundle zsh-users/zsh-completions
 # Antigen Bundles
 #
 # Specify plugins we want
-#antigen bundle 
-#antigen bundle 
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+#antigen bundle
+antigen bundle zpm-zsh/autoenv
+antigen bundle jhwohlgemuth/oh-my-zsh-pentest-plugin
+antigen bundle dbkaplun/smart-cd
+antigen bundle "MichaelAquilina/zsh-you-should-use"
+antigen bundle katrinleinweber/oh-my-zsh-youtube-dl-aliases
+antigen bundle joow/youtube-dl
+antigen bundle zinit-zsh/z-a-man
+antigen bundle zinit-zsh/z-a-patch-dl
+#antigen bundle arlimus/zero.zsh
+antigen bundle zdharma/zui
+antigen bundle qoomon/zsh-lazyload
+antigen bundle junegunn/fzf
+antigen bundle "ytakahashi/igit"
+antigen bundle oldratlee/hacker-quotes
+antigen bundle cjayross/gsh
+antigen bundle tevren/gitfast-zsh-plugin
+antigen bundle viko16/gitcd.plugin.zsh
+antigen bundle caarlos0/zsh-git-sync
+antigen bundle seletskiy/zsh-git-smart-commands
+antigen bundle peterhurford/git-aliases.zsh
+antigen bundle twang817/zsh-clipboard
+antigen bundle rapgenic/zsh-git-complete-urls
+antigen bundle chrissicool/zsh-256color
+antigen bundle GetAmbush/deepx-zsh-plugin
+antigen bundle unixorn/bitbucket-git-helpers.plugin.zsh
+antigen bundle unixorn/autoupdate-antigen.zshplugin
+antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
 antigen bundle sorin-ionescu/prezto
 antigen bundle vladmrnv/statify
 antigen bundle paulmelnikow/zsh-startup-timer

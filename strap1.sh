@@ -3,7 +3,7 @@
 
 echo "trizen for AUR support"
 sudo pacman -S trizen 
-trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils
+trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils ghc cabal-install zfz
 
 
 echo "Enabling snapd support"
@@ -13,11 +13,18 @@ echo "yadm pull of .dot files"
 curl -L git.io/antigen > antigen.zsh
 yadm clone https://github.com/jimbob343/zsh
 yadm status
+echo "cobal"
+cabal update
+cabal install base text directory filepath process
+echo "antigen-hs"
+git clone https://github.com/Tarrasch/antigen-hs.git ~/.zsh/antigen-hs/
+echo "Snap install of skype and snapstore"
+sudo snap install skype --classic
+sudo snap install snap-store
 echo "DOOM emacs"
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
-sudo snap install skype --classic
-sudo snap install snap-store
+
 sudo strap.sh
 mkdir git
 cd git
