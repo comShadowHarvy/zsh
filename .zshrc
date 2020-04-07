@@ -32,7 +32,7 @@ antigen bundle zsh-users/zsh-completions
 #antigen bundle
 #antigen bundle
 #antigen bundle
-#antigen bundle
+antigen bundle r3b311ion/caniuse-plugin-zsh-git
 antigen bundle zpm-zsh/autoenv
 antigen bundle jhwohlgemuth/oh-my-zsh-pentest-plugin
 antigen bundle dbkaplun/smart-cd
