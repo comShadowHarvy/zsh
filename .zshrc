@@ -35,7 +35,7 @@ antigen bundle zsh-users/zsh-completions
 #antigen bundle
 antigen bundle zpm-zsh/autoenv
 antigen bundle jhwohlgemuth/oh-my-zsh-pentest-plugin
-antigen bundle dbkaplun/smart-cd
+#antigen bundle dbkaplun/smart-cd
 antigen bundle "MichaelAquilina/zsh-you-should-use"
 antigen bundle katrinleinweber/oh-my-zsh-youtube-dl-aliases
 antigen bundle joow/youtube-dl
