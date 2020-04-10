@@ -154,8 +154,10 @@ bindkey -v
 # Set any settings or overrides here
 #prompt belak
 alias weather=ansiweather -l minto ontario
-screenfetch
-neofetch
+screenfetch | lolcat
+neofetch | lolcat
+archey | lolcat
+pfetch | lolcat
 ansiweather -l minto ontario
 # Some useful nmap aliases for scan modes
 

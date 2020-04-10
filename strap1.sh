@@ -3,9 +3,10 @@
 
 echo "trizen for AUR support"
 sudo pacman -S trizen 
-trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils ghc cabal-install zfz a2sv aphopper apkstat apt2 auto-auto-complete biglybt-extreme-mod
+trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch pfetch archey4 zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils ghc cabal-install zfz a2sv aphopper apkstat apt2 auto-auto-complete biglybt-extreme-mod tldr alacritty lazygit terminus edex-ui npm no-more-secrets-git spotify-tui rtv mps-youtube-hd-git navi wmctrl virt-what pciutils lm_sensors bind-tools lolcat
 
 
+npm i chalk-animation
 
 echo "Enabling snapd support"
 sudo systemctl enable --now snapd.socket
@@ -51,3 +52,8 @@ git clone https://github.com/vonahisec/pentesting_scripts
 git clone https://github.com/flubberding/ProtonUpdater
 git clone https://github.com/MS-WEB-BN/t14m4t
 git clone https://github.com/nullsecuritynet/tools
+git clone https://github.com/nicolargo/glances
+git clone https://github.com/wtfutil/wtf
+git clone https://github.com/sinclairzx81/zero
+git clone https://github.com/hugomd/parrot.live    
+git clone https://github.com/LazoCoder/Pokemon-Terminal
