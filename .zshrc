@@ -192,6 +192,8 @@ alias nmap_full_with_scripts="sudo nmap -sS -sU -T4 -A -v -PE -PP -PS21,22,23,25
 alias nmap_web_safe_osscan="sudo nmap -p 80,443 -O -v --osscan-guess --fuzzy "
 alias nmap_ping_scan="nmap -n -sP"
 
+alias loo=" | lolcat"
+
 
 alias findr='\fd'
 #function for find strings in files
