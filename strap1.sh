@@ -2,11 +2,16 @@
 # strap1.sh - prep my system
 
 echo "trizen for AUR support"
-sudo pacman -S trizen 
-trizen -S tizonia spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch pfetch archey4 zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils ghc cabal-install zfz a2sv aphopper apkstat apt2 auto-auto-complete biglybt-extreme-mod tldr alacritty lazygit terminus edex-ui npm no-more-secrets-git spotify-tui rtv mps-youtube-hd-git navi wmctrl virt-what pciutils lm_sensors bind-tools lolcat
+sudo pacman -S trizen zsh
+trizen -S tizonia git spotifyd iris sconsify mopidy-spotify ncureses mopidy-local ytmdl dnd-tools subtitles-printer-git netflix-qdesktop silos hwinfo powerpill opencl-nvidia-tkg snapd screenfetch neofetch pfetch archey4 zsh snapd yadm screenfetch neofetch emacs nano git-summary nerd-fonts-complete nerd-fonts-hack vdhcoapp atom-transparent code-transparent lib32-gtk3 lib32-libxslt ccache schedtool lib32-v4l-utils ghc cabal-install zfz a2sv aphopper apkstat apt2 auto-auto-complete biglybt-extreme-mod tldr alacritty lazygit terminus edex-ui npm no-more-secrets-git spotify-tui rtv mps-youtube-hd-git navi wmctrl virt-what pciutils lm_sensors bind-tools lolcat
 
-
+chsh -s =zsh
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 npm i chalk-animation
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
 echo "Enabling snapd support"
 sudo systemctl enable --now snapd.socket
