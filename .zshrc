@@ -5,134 +5,15 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+#source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
+
+
+#################################################################
 source ~/antigen.zsh
 ################library##################
-# Load the oh-my-zsh's library.
-antigen use oh-my-zsh
-# Set the default plugin repo to be zsh-utils
-antigen use belak/zsh-utils
-# Load various lib files
-antigen bundle robbyrussell/oh-my-zsh lib/
-
-
-
-
-# Specify completions we want before the completion module
-antigen bundle zsh-users/zsh-completions
-#
-# Antigen Bundles
-#
-# Specify plugins we want
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-#antigen bundle
-antigen bundle r3b311ion/caniuse-plugin-zsh-git
-antigen bundle zpm-zsh/autoenv
-antigen bundle jhwohlgemuth/oh-my-zsh-pentest-plugin
-antigen bundle dbkaplun/smart-cd
-antigen bundle "MichaelAquilina/zsh-you-should-use"
-antigen bundle katrinleinweber/oh-my-zsh-youtube-dl-aliases
-antigen bundle joow/youtube-dl
-antigen bundle zinit-zsh/z-a-man
-antigen bundle zinit-zsh/z-a-patch-dl
-#antigen bundle arlimus/zero.zsh
-antigen bundle zdharma/zui
-antigen bundle qoomon/zsh-lazyload
-antigen bundle junegunn/fzf
-antigen bundle "ytakahashi/igit"
-antigen bundle oldratlee/hacker-quotes
-antigen bundle cjayross/gsh
-antigen bundle tevren/gitfast-zsh-plugin
-antigen bundle viko16/gitcd.plugin.zsh
-antigen bundle caarlos0/zsh-git-sync
-antigen bundle seletskiy/zsh-git-smart-commands
-antigen bundle peterhurford/git-aliases.zsh
-antigen bundle twang817/zsh-clipboard
-antigen bundle rapgenic/zsh-git-complete-urls
-antigen bundle chrissicool/zsh-256color
-antigen bundle GetAmbush/deepx-zsh-plugin
-antigen bundle unixorn/bitbucket-git-helpers.plugin.zsh
-antigen bundle unixorn/autoupdate-antigen.zshplugin
-antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
-antigen bundle sorin-ionescu/prezto
-antigen bundle vladmrnv/statify
-antigen bundle paulmelnikow/zsh-startup-timer
-antigen bundle oldratlee/hacker-quotes
-antigen bundle rutchkiwi/copyzshell
-antigen bundle zpm-zsh/colorize
-antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
-#antigen bundle Valiev/almostontop
-antigen bundle StackExchange/blackbox
-angigen bundle nvie/gitflow
-antigen bundle bobthecow/git-flow-completion
-antigen bundle supercrabtree/k
-antigen bundle hlissner/zsh-autopair
-antigen bundle qoomon/zsh-lazyload
-antigen bundle editor
-antigen bundle history
-antigen bundle prompt
-antigen bundle utility
-antigen bundle completion
-#antigen bundle git
-antigen bundle tmuxinator
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle rupa/z
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle fcambus/ansiweather
-antigen bundle lukechilds/zsh-nvm
-antigen bundle chrissicool/zsh-256color
-antigen bundle unixorn/autoupdate-antigen.zshplugin
-#antigen bundle TamCore/autoupdate-oh-my-zsh-plugins
-antigen bundle zpm-zsh/background
-antigen bundle tevren/gitfast-zsh-plugin
-antigen bundle amstrad/oh-my-matrix
-antigen bundle jhwohlgemuth/oh-my-zsh-pentest-plugin
-antigen bundle gko/ssh-connect
-antigen bundle nmap
-antigen bundle archlinux
-antigen bundle jimbob343/zsh-potato/
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-#antigen bundle git
-antigen bundle heroku
-antigen bundle pip
-antigen bundle lein
-antigen bundle command-not-found
-antigen bundle git
-antigen bundle arch
-# For SSH, starting ssh-agent is annoying
-antigen bundle ssh-agent
-# Node Plugins
-antigen bundle coffee
-antigen bundle node
-antigen bundle npm
-
-# Python Plugins
-antigen bundle pip
-antigen bundle python
-antigen bundle virtualenv
-
-antigen bundle jdavis/zsh-files
-# Secret info
-#antigen bundle git@github.com:jdavis/secret.git
-
-# Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
-#
-# Antigen Theme
-#antigen theme jdavis/zsh-files themes/jdavis
-antigen theme romkatv/powerlevel10k
-
-antigen apply
-#source <(~/.cargo/bin/sheldon)
-#antibody init
-#antibody bundle romkatv/powerlevel10k
-# The following lines were added by compinstall
+# Load Antigen configurations
+antigen init ~/.antigenrc
 
 zstyle ':completion:*' completer _oldlist _expand _complete _ignored _match _correct _approximate _prefix
 zstyle ':completion:*' matcher-list 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._p3]=* r:|=*' 'l:|=* r:|=*'
@@ -153,49 +34,7 @@ bindkey -v
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Set any settings or overrides here
 #prompt belak
-alias weather=ansiweather -l minto ontario
-screenfetch | lolcat
-neofetch | lolcat
-archey | lolcat
-pfetch | lolcat
-ansiweather -l minto ontario
-# Some useful nmap aliases for scan modes
 
-# Nmap options are:
-#  -sS - TCP SYN scan
-#  -v - verbose
-#  -T1 - timing of scan. Options are paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5)
-#  -sF - FIN scan (can sneak through non-stateful firewalls)
-#  -PE - ICMP echo discovery probe
-#  -PP - timestamp discovery probe
-#  -PY - SCTP init ping
-#  -g - use given number as source port
-#  -A - enable OS detection, version detection, script scanning, and traceroute (aggressive)
-#  -O - enable OS detection
-#  -sA - TCP ACK scan
-#  -F - fast scan
-#  --script=vuln - also access vulnerabilities in target
-
-alias nmap_open_ports="nmap --open"
-alias nmap_list_interfaces="nmap --iflist"
-alias nmap_slow="sudo nmap -sS -v -T1"
-alias nmap_fin="sudo nmap -sF -v"
-alias nmap_full="sudo nmap -sS -T4 -PE -PP -PS80,443 -PY -g 53 -A -p1-65535 -v"
-alias nmap_check_for_firewall="sudo nmap -sA -p1-65535 -v -T4"
-alias nmap_ping_through_firewall="nmap -PS -PA"
-alias nmap_fast="nmap -F -T5 --version-light --top-ports 300"
-alias nmap_detect_versions="sudo nmap -sV -p1-65535 -O --osscan-guess -T4 -Pn"
-alias nmap_check_for_vulns="nmap --script=vuln"
-alias nmap_full_udp="sudo nmap -sS -sU -T4 -A -v -PE -PS22,25,80 -PA21,23,80,443,3389 "
-alias nmap_traceroute="sudo nmap -sP -PE -PS22,25,80 -PA21,23,80,3389 -PU -PO --traceroute "
-alias nmap_full_with_scripts="sudo nmap -sS -sU -T4 -A -v -PE -PP -PS21,22,23,25,80,113,31339 -PA80,113,443,10042 -PO --script all " 
-alias nmap_web_safe_osscan="sudo nmap -p 80,443 -O -v --osscan-guess --fuzzy "
-alias nmap_ping_scan="nmap -n -sP"
-
-alias loo=" | lolcat"
-
-
-alias findr='\fd'
 #function for find strings in files
 fif() {
     findr --type f $1|xargs grep -n -i  $2
@@ -229,11 +68,6 @@ backupToDrive(){
 # Use - to go back to previous directory
 #alias -- -='cd -'
 
-# Taken from the tmux plugin
-alias ta="tmux attach -t"
-alias ts="tmux new-session -s"
-alias tl="tmux list-sessions"
-
 # Keybindings
 
 autoload -U up-line-or-beginning-search
@@ -250,3 +84,78 @@ bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
 alias grep='grep --color=always -i'
 export  GREP_COLOR='7;33;34'
+
+### Added by Zinit's installer
+if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
+    print -P "%F{33}▓▒░ %F{220}Installing DHARMA Initiative Plugin Manager (zdharma/zinit)…%f"
+    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
+    command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
+        print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
+        print -P "%F{160}▓▒░ The clone has failed.%f%b"
+fi
+
+source "$HOME/.zinit/bin/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zinit-zsh/z-a-patch-dl \
+    zinit-zsh/z-a-as-monitor \
+    zinit-zsh/z-a-bin-gem-node
+	
+
+	zplugin light zdharma/zplugin-crasis
+### End of Zinit's installer chunk
+
+export ZPLUG_HOME=$HOME/.zplug
+# create fake KBUILD Information by default
+export KBUILD_BUILD_USER="vera"
+export KBUILD_BUILD_HOST="F.R.I.D.A.Y."
+
+# user profile
+source $HOME/.profile
+
+# zplug initialization
+[[ ! -f $ZPLUG_HOME/init.zsh ]] && git clone https://github.com/zplug/zplug $ZPLUG_HOME
+source $ZPLUG_HOME/init.zsh
+
+# do self-manage
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+
+# load nice libs from oh-my-zsh
+zplug "lib/completion",   from:oh-my-zsh
+zplug "lib/history",      from:oh-my-zsh
+zplug "lib/key-bindings", from:oh-my-zsh
+zplug "lib/termsupport",  from:oh-my-zsh
+zplug "lib/directories",  from:oh-my-zsh
+
+# for speed debug. mine ? 230ms, not bad tho
+# zplug "paulmelnikow/zsh-startup-timer"
+
+# naisu minimal theme
+MNML_USER_CHAR=$USER
+MNML_INSERT_CHAR='do:'
+zplug 'subnixr/minimal', use:minimal.zsh, as:theme
+
+# auto-close quotes and brackets like a pro
+zplug 'hlissner/zsh-autopair', defer:2
+
+# another eyecandy
+zplug 'zdharma/fast-syntax-highlighting', defer:2, hook-load:'FAST_HIGHLIGHT=()'
+
+# finally install and load those plugins
+zplug check || zplug install
+zplug load
+
+# returning command and folder completion when line is empty
+# like a bash, but better
+blanktab() { [[ $#BUFFER == 0 ]] && CURSOR=3 zle list-choices || zle expand-or-complete }
+zle -N blanktab && bindkey '^I' blanktab
+
+# load my own aliases
+[[ -f $HOME/.aliases ]] && source $HOME/.aliases
+
+# finally. paint the terminal emulator!
+[[ -f ~/.cache/wal/sequences ]] && (cat ~/.cache/wal/sequences &)
