@@ -159,3 +159,24 @@ zle -N blanktab && bindkey '^I' blanktab
 
 # finally. paint the terminal emulator!
 [[ -f ~/.cache/wal/sequences ]] && (cat ~/.cache/wal/sequences &)
+
+getnews () {
+  curl https://newsapi.org/v2/top-headlines -s -G \
+    -d sources=$1 \
+    -d apiKey=noapikeyforyou \
+    | jq '.articles[] | .title'
+}
+
+startmyday () {
+  echo "Good morning, ShadowHarvy."
+  echo "\nUpdating..."
+  pacui u
+  echo "\nThe weather right now:"
+  ansiweather -l Toronto
+#  echo "\nNews from the BBC:"
+#  getnews bbc-news
+#  echo "\nNews from the Washington Post:"
+#  getnews the-washington-post
+#  echo "\nNews from Hacker News:"
+#  getnews hacker-news
+}
