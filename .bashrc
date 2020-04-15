@@ -1148,7 +1148,7 @@ edit ()
 	elif [ "$(type -t pico)" = "file" ]; then
 		pico "$@"
 	else
-		vim "$@"
+		nano "$@"
 	fi
 }
 sedit ()
@@ -1161,7 +1161,7 @@ sedit ()
 	elif [ "$(type -t pico)" = "file" ]; then
 		sudo pico "$@"
 	else
-		sudo vim "$@"
+		sudo nano "$@"
 	fi
 }
 
