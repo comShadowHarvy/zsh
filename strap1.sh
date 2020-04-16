@@ -15,6 +15,10 @@ EOF
 sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
 sudo pacman-key --lsign-key 3056513887B78AEB
 
+echo "BLACKARCH support"
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sudo ./strap.sh
 
 echo "trizen for AUR support"
 sudo pacman -S trizen zsh
