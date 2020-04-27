@@ -1,0 +1,57 @@
+[user]
+	name = ShadowHarvy
+	email = jimbob343@gmail.com
+#	signingkey = 82AEA0AC
+[cola]
+	fontdiff = Fira Code,10,-1,5,50,0,0,0,0,0,Regular
+	blameviewer = git gui blame
+	spellcheck = true
+[gui]
+	editor = kwrite
+	historybrowser = git-dag
+[diff]
+	tool = xxdiff
+	algorithm = histogram
+[merge]
+	tool = xxdiff
+[gpg]
+	program = gpg2
+[commit]
+#	gpgsign = true
+[core]
+	editor = nano
+	pager = delta --dark --theme='base16' --tabs 2 | less --tabs=2 -RFX
+	commitGraph = true
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[ghq]
+	root = "~/Executables/ghq"
+[alias]
+	pushall = !git remote | xargs -L1 -P 0 git push --all
+
+[credential "https://gitlab.com"]
+	username = jimbob343
+[credential "https://github.com"]
+	username = jimbob343
+
+; sendemail using https://github.com/emersion/hydroxide
+[sendemail]
+	smtpUser=ShadowHarvy
+	smtpserver=127.0.0.1
+	smtpserverport=1025
+	from=jimbob343@gmail.com
+	compose-encoding=UTF-8
+
+

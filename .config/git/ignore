@@ -1,0 +1,94 @@
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cov.xml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+.ccls-cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ah, macOS. The bastard child of Mach and FreeBSD.
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+# Windows. I don't even need to say anything snarky here; it speaks for itself.
+._*
+ehthumbs.db
+Thumbs.db
+# KDE's dolphin. Because file browsing wasn't bloated enough already.
+.directory
+
+# private stuff I like to add to my repos
+privatenotes.txt
+lint-test.sh
+.snekrc
+ignore/
+
+# Python stuff
+venv/
+
+# gitlab-runner
+builds/
+cache/
