@@ -1,4 +1,7 @@
 #.aliases 
+
+alias ytmp3="youtube-dl --extract-audio --audio-format"
+
 alias lweather=ansiweather -l minto ontario
 screenfetch | lolcat
 neofetch | lolcat
