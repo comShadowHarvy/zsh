@@ -1,0 +1,8 @@
+--add-metadata
+--fixup detect_or_warn
+--all-subs
+--embed-subs
+--console-title
+--external-downloader aria2c
+--audio-quality 0
+--format "bestvideo[width>1920][ext=webm]+bestaudio[ext=webm]/bestvideo[width>1920]+bestaudio/bestvideo[ext=webm]+bestaudio[ext=webm]/bestvideo+bestaudio/best"
