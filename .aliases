@@ -1,5 +1,5 @@
 #.aliases 
-
+alias get="wget -m -np -c -U "eye01" -R "index.html*" "
 alias ytmp3="youtube-dl --extract-audio --audio-format"
 
 alias lweather=ansiweather -l minto ontario
