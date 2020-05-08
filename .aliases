@@ -1,6 +1,9 @@
 #.aliases 
-alias get="wget -m -np -c -U "eye01" -R "index.html*" "
+#wget page
+alias get='wget -m -np -c -U "eye01" -R "index.html*" '
+#youtube mp3 deownload
 alias ytmp3="youtube-dl --extract-audio --audio-format"
+#use rsync insted of cp
 alias cp="rsync -avhW --no-compress --progress "
 
 alias lweather=ansiweather -l minto ontario
