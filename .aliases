@@ -1,16 +1,30 @@
 #.aliases 
+<<<<<<< HEAD
 
 # Aliases
 function mkcd() { mkdir -p $1 && cd $1 }
 function cdf() { cd *$1*/ } # stolen from @topfunky
 
-#wget to steal tree
-alias get='wget -m -np -c -U "eye01" -R "index.html*" '
+#wget page
+alias get='wget -m -np -c -R "index.html*" '
+#-U "eye01"
+#youtube mp3 deownload
+alias ytmp3="youtube-dl --extract-audio --audio-format"
+#use rsync insted of cp
+alias cp="rsync -avhW --no-compress --progress "
+
 # Stop wget from creating ~/.wget-hsts file. I don't care about HSTS (HTTP
 # Strict Transport Security) for wget; it's not as if I'm logging into my bank
 # with it.
 alias wget='wget --no-hsts'
+=======
+#wget page
+alias get='wget -m -np -c -U "eye01" -R "index.html*" '
+#youtube mp3 deownload
+>>>>>>> 4a074af9352e37e96274aa82ac05ea840e4b26e3
 alias ytmp3="youtube-dl --extract-audio --audio-format"
+#use rsync insted of cp
+alias cp="rsync -avhW --no-compress --progress "
 
 alias lweather=ansiweather -l minto ontario
 screenfetch | lolcat

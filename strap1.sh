@@ -10,6 +10,10 @@ Server = https://repo.kitsuna.net/x86_64
 #########################Must add keys for it
 #sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
 #sudo pacman-key --lsign-key 3056513887B78AEB
+
+[archstrike]
+Server = http://archstrike.org:81/repo/$arch/$repo
+
 EOF
 
 sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
