@@ -24,8 +24,21 @@ compinit
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=99999
-SAVEHIST=99999
+export HISTSIZE=10000000
+export SAVEHIST=10000000
+setopt BANG_HIST                 # Treat the '!' character specially during expansion.
+setopt EXTENDED_HISTORY          # Write the history file in the ":start:elapsed;command" format.
+setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
+setopt SHARE_HISTORY             # Share history between all sessions.
+setopt HIST_EXPIRE_DUPS_FIRST    # Expire duplicate entries first when trimming history.
+setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
+setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
+setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
+setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history file.
+setopt HIST_FIND_NO_DUPS
+setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
+setopt HIST_BEEP                 # Beep when accessing nonexistent history.
+
 setopt autocd beep extendedglob nomatch notify
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -69,6 +82,10 @@ backupToDrive(){
 #alias -- -='cd -'
 
 # Keybindings
+# Use C-x C-e to edit the current command line
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '\C-x\C-e' edit-command-line
 
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
@@ -84,6 +101,32 @@ bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
 alias grep='grep --color=always -i'
 export  GREP_COLOR='7;33;34'
+alias get='wget -m -np -c -U "eye01" -R "index.html*" '
+
+# By default, zsh considers many characters part of a word (e.g., _ and -).
+# Narrow that down to allow easier skipping through words via M-f and M-b.
+export WORDCHARS='*?[]~&;!$%^<>'
+
+# Highlight search results in ack.
+export ACK_COLOR_MATCH='red'
+
+
+# Activate the closest virtualenv by looking in parent directories.
+activate_virtualenv() {
+    if [ -f env/bin/activate ]; then . env/bin/activate;
+    elif [ -f ../env/bin/activate ]; then . ../env/bin/activate;
+    elif [ -f ../../env/bin/activate ]; then . ../../env/bin/activate;
+    elif [ -f ../../../env/bin/activate ]; then . ../../../env/bin/activate;
+    fi
+}
+
+# Find the directory of the named Python module.
+python_module_dir () {
+    echo "$(python -c "import os.path as _, ${1}; \
+        print _.dirname(_.realpath(${1}.__file__[:-1]))"
+        )"
+}
+
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
@@ -93,6 +136,29 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
         print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
         print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
+
+
+# Load the Variables file
+if [ -e ~/.zsh_files/variables.zsh ]; then
+     source ~/.zsh_files/variables.zsh
+fi 
+
+# Load the Aliases file
+if [ -e ~/.zsh_files/aliases.zsh ]; then
+     source ~/.zsh_files/aliases.zsh
+fi 
+
+# Load the TinyCareTerminal file
+if [ -e ~/.zsh_files/tct.zsh ]; then
+     source ~/.zsh_files/tct.zsh
+fi 
+
+# Load the Functions file
+if [ -e ~/.zsh_files/functions.zsh ]; then
+     source ~/.zsh_files/functions.zsh
+fi 
+
+
 
 source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
@@ -180,3 +246,5 @@ startmyday () {
 #  echo "\nNews from Hacker News:"
 #  getnews hacker-news
 }
+echo "2020 12 31" | awk '{dt=mktime($0 " 00 00 00")-systime(); print "There are " int(dt/86400/7) " weeks left until the year ends. What will you do?";}'
+
