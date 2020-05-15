@@ -26,7 +26,29 @@ sudo ./strap.sh
 
 echo "trizen for AUR support"
 sudo pacman -S --noconfirm trizen zsh
-
+trizen -S --noconfirm yadm
+trizen -S --noconfirm screenfetch 
+trizen -S --noconfirm neofetch 
+trizen -S --noconfirm emacs 
+trizen -S --noconfirm nano 
+trizen -S --noconfirm screen
+trizen -S --noconfirm byobu
+trizen -S --noconfirm cabal-install
+echo "yadm pull of .dot files"
+curl -L git.io/antigen > antigen.zsh
+yadm clone https://github.com/jimbob343/zsh
+yadm status
+echo "cobal"
+cabal update
+cabal install base text directory filepath process
+echo "antigen-hs"
+git clone https://github.com/Tarrasch/antigen-hs.git ~/.zsh/antigen-hs/
+echo "Snap install of skype and snapstore"
+sudo snap install skype --classic
+sudo snap install snap-store
+echo "DOOM emacs"
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
 trizen -S --noconfirm tizonia 
 trizen -S --noconfirm popcorntime
 trizen -S --noconfirm atom
@@ -57,10 +79,6 @@ sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 trizen -S --noconfirm yadm
 yadm clone http://github.com/jimbob343/zsh
-trizen -S --noconfirm screenfetch 
-trizen -S --noconfirm neofetch 
-trizen -S --noconfirm emacs 
-trizen -S --noconfirm nano 
 trizen -S --noconfirm git-summary 
 trizen -S --noconfirm nerd-fonts-complete 
 trizen -S --noconfirm nerd-fonts-hack 
@@ -110,21 +128,21 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 #echo "Enabling snapd support"
 #sudo systemctl enable --now snapd.socket
 #sudo ln -s /var/lib/snapd/snap /snap
-echo "yadm pull of .dot files"
-curl -L git.io/antigen > antigen.zsh
-yadm clone https://github.com/jimbob343/zsh
-yadm status
-echo "cobal"
-cabal update
-cabal install base text directory filepath process
-echo "antigen-hs"
-git clone https://github.com/Tarrasch/antigen-hs.git ~/.zsh/antigen-hs/
-echo "Snap install of skype and snapstore"
-sudo snap install skype --classic
-sudo snap install snap-store
-echo "DOOM emacs"
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-~/.emacs.d/bin/doom install
+#echo "yadm pull of .dot files"
+#curl -L git.io/antigen > antigen.zsh
+#yadm clone https://github.com/jimbob343/zsh
+#yadm status
+#echo "cobal"
+#cabal update
+#cabal install base text directory filepath process
+#echo "antigen-hs"
+#git clone https://github.com/Tarrasch/antigen-hs.git ~/.zsh/antigen-hs/
+#echo "Snap install of skype and snapstore"
+#sudo snap install skype --classic
+#sudo snap install snap-store
+#echo "DOOM emacs"
+#git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+#~/.emacs.d/bin/doom install
 
 sudo strap.sh
 mkdir git
