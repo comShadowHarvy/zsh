@@ -49,6 +49,8 @@ sudo snap install snap-store
 echo "DOOM emacs"
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
+echo "byobu config"
+export SOMEWHERE=~/.config/byobu; git clone https://github.com/b3rserker/byobu-config $SOMEWHERE; ln -s $SOMEWHERE ~/.byobu
 trizen -S --noconfirm tizonia 
 trizen -S --noconfirm popcorntime
 trizen -S --noconfirm atom
