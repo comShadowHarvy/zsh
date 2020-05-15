@@ -31,6 +31,7 @@ trizen -S --noconfirm screenfetch
 trizen -S --noconfirm neofetch 
 trizen -S --noconfirm emacs 
 trizen -S --noconfirm nano 
+trizen -S --noconfirm tmux
 trizen -S --noconfirm screen
 trizen -S --noconfirm byobu
 trizen -S --noconfirm cabal-install
@@ -60,6 +61,7 @@ git clone https://github.com/tmux-plugins/tmux-copycat $PLUGS/copycat2
 git clone https://github.com/tmux-plugins/tmux-yank $PLUGS/yank
 git clone https://github.com/tmux-plugins/tmux-cpu $PLUGS/tmux-cpu
 git clone https://github.com/tmux-plugins/tmux-resurrect $PLUGS/tmux-resurrect
+byobu-enable
 trizen -S --noconfirm tizonia 
 trizen -S --noconfirm popcorntime
 trizen -S --noconfirm atom
