@@ -26,7 +26,11 @@ sudo ./strap.sh
 
 echo "trizen for AUR support"
 sudo pacman -S --noconfirm trizen zsh
+
 trizen -S --noconfirm tizonia 
+trizen -S --noconfirm popcorntime
+trizen -S --noconfirm atom
+trizen -S --noconfirm scrcpy
 trizen -S --noconfirm git 
 trizen -S --noconfirm spotifyd 
 trizen -S --noconfirm iris 
