@@ -1,5 +1,5 @@
 #.aliases 
-<<<<<<< HEAD
+
 
 # Aliases
 function mkcd() { mkdir -p $1 && cd $1 }
@@ -19,9 +19,9 @@ alias cp="rsync -avhW --no-compress --progress "
 alias wget='wget --no-hsts'
 =======
 #wget page
-alias get='wget -m -np -c -U "eye01" -R "index.html*" '
+#alias get='wget -m -np -c -U "eye01" -R "index.html*" '
 #youtube mp3 deownload
->>>>>>> 4a074af9352e37e96274aa82ac05ea840e4b26e3
+
 alias ytmp3="youtube-dl --extract-audio --audio-format"
 #use rsync insted of cp
 alias cp="rsync -avhW --no-compress --progress "
