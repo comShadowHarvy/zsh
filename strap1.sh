@@ -161,6 +161,9 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 sudo strap.sh
 mkdir git
 cd git
+git clone https://github.com/hahwul/mad-metasploit
+git clone https://github.com/hahwul/WebHackersWeapons
+git clone https://github.com/rand0m1ze/ezsploit
 git clone https://github.com/0xApt/awesome-bbht
 git clone https://github.com/luong-komorebi/Awesome-Linux-Software
 git clone https://github.com/may215/awesome-termux-hacking
