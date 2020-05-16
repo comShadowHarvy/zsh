@@ -64,6 +64,10 @@ trizen -S --noconfirm byobu
 byobu-enable
 trizen -S --noconfirm tizonia 
 trizen -S --noconfirm popcorntime
+trizen -S --noconfirm python3.7
+trizen -S --noconfirm asdf
+trizen -S --noconfirm pyenv
+trizen -S --noconfirm python-pipenv
 trizen -S --noconfirm atom
 trizen -S --noconfirm scrcpy
 trizen -S --noconfirm git 
