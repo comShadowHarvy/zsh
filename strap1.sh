@@ -96,6 +96,7 @@ trizen -S --noconfirm git-summary
 trizen -S --noconfirm nerd-fonts-complete 
 trizen -S --noconfirm nerd-fonts-hack 
 trizen -S --noconfirm vdhcoapp 
+trizen -S --noconfirm jq
 trizen -S --noconfirm atom-transparent 
 trizen -S --noconfirm code-transparent 
 trizen -S --noconfirm lib32-gtk3 
