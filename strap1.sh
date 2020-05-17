@@ -134,6 +134,7 @@ trizen -S --noconfirm pciutils
 trizen -S --noconfirm lm_sensors 
 trizen -S --noconfirm bind-tools 
 trizen -S --noconfirm lolcat
+trizen -S --noconfirm btfs
 
 chsh -s =/bin/zsh
 git clone https://github.com/gpakosz/.tmux.git
