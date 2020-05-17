@@ -5,6 +5,9 @@
 function mkcd() { mkdir -p $1 && cd $1 }
 function cdf() { cd *$1*/ } # stolen from @topfunky
 
+#teamviewer
+alias teamv=sudo teamviewer daemon restart; teamviewer
+
 #wget page
 alias get='wget -m -np -c -R "index.html*" '
 #-U "eye01"
