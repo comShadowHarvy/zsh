@@ -68,6 +68,7 @@ trizen -S --noconfirm python3.7
 trizen -S --noconfirm asdf
 trizen -S --noconfirm scrcpy
 trizen -S --noconfirm guiscrcpy
+trizen -S --noconfirm gnome-boxes
 trizen -S --noconfirm pyenv
 trizen -S --noconfirm python-pipenv
 trizen -S --noconfirm atom
