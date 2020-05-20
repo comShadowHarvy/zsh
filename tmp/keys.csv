@@ -187,4 +187,4 @@ org.gnome.settings-daemon.plugins.media-keys	next-static	['XF86AudioNext', '<Ctr
 org.gnome.settings-daemon.plugins.media-keys	previous-static	['XF86AudioPrev', '<Ctrl>XF86AudioPrev']
 org.gnome.settings-daemon.plugins.media-keys	keyboard-brightness-down-static	['XF86KbdBrightnessDown']
 org.gnome.settings-daemon.plugins.media-keys	volume-down-precise-static	['<Shift>XF86AudioLowerVolume', '<Ctrl><Shift>XF86AudioLowerVolume']
-custom	'launch'	' rofi -show run -modi run,window -show-icons -sidebar-mode -terminal st'	'<Primary><Super>z'
+custom	'launch'	' rofi -show run -modi run,window -show-icons -sidebar-mode -terminal gnome-terminal'	'<Primary><Super>z'
