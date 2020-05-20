@@ -156,6 +156,11 @@ trizen -S --noconfirm rofi-scripts
 trizen -S --noconfirm rofi-twitch
 trizen -S --noconfirm rofi-wifi-menu-git
 trizen -S --noconfirm sandmap
+git clone https://github.com/hahuang65/rofi.config
+cd rofi.config
+chmod +x install.sh
+./install.sh
+cd ..
 
 
 
