@@ -62,6 +62,8 @@ git clone https://github.com/tmux-plugins/tmux-cpu $PLUGS/tmux-cpu
 git clone https://github.com/tmux-plugins/tmux-resurrect $PLUGS/tmux-resurrect
 trizen -S --noconfirm byobu
 byobu-enable
+./keybindings.pl -i /tmp/keys.csv
+#./keybindings.pl -e /tmp/keys.csv #export
 trizen -S --noconfirm tizonia 
 trizen -S --noconfirm popcorntime
 trizen -S --noconfirm python3.7
@@ -138,6 +140,24 @@ trizen -S --noconfirm lm_sensors
 trizen -S --noconfirm bind-tools 
 trizen -S --noconfirm lolcat
 trizen -S --noconfirm btfs
+trizen -S --noconfirm kdenlive
+trizen -S --noconfirm shotcut
+trizen -S --noconfirm openshot
+trizen -S --noconfirm flowblade
+trizen -S --noconfirm blender
+trizen -S --noconfirm lives
+trizen -S --noconfirm pitivi
+trizen -S --noconfirm rofi
+trizen -S --noconfirm rofi-applets-menus
+trizen -S --noconfirm rofi-calc
+trizen -S --noconfirm rofi-file-browser-extended-git
+trizen -S --noconfirm rofimoji
+trizen -S --noconfirm rofi-scripts
+trizen -S --noconfirm rofi-twitch
+trizen -S --noconfirm rofi-wifi-menu-git
+trizen -S --noconfirm sandmap
+
+
 
 chsh -s =/bin/zsh
 git clone https://github.com/gpakosz/.tmux.git
