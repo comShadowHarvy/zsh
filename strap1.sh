@@ -25,7 +25,7 @@ chmod +x strap.sh
 sudo ./strap.sh
 
 echo "trizen for AUR support"
-sudo pacman -S --noconfirm trizen zsh
+sudo pacman -S --noconfirm trizen zsh git git-lfs
 trizen -S --noconfirm yadm
 trizen -S --noconfirm screenfetch 
 trizen -S --noconfirm neofetch 
