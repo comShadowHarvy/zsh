@@ -156,7 +156,13 @@ trizen -S --noconfirm rofi-scripts
 trizen -S --noconfirm rofi-twitch
 trizen -S --noconfirm rofi-wifi-menu-git
 trizen -S --noconfirm sandmap
-git clone https://github.com/hahuang65/rofi.config
+echo "BETTERDISCORD SUPPORT"
+trizen -S --noconfirm discord
+curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
+chmod +x betterdiscordctl 
+sudo mv betterdiscordctl /usr/local/bin 
+betterdiscordctl install
+git clone https://github.com/jimbob343/rofi.config/
 cd rofi.config
 chmod +x install.sh
 ./install.sh
