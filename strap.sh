@@ -156,21 +156,6 @@ pacman_upgrade()
     n|N) warn 'some blackarch packages may not work without an up-to-date system.' ;;
   esac
 }
-# setup chaotic aur
-cat >> "/etc/pacman.conf" << EOF
-
-[chaotic-aur]
-Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
-Server = http://chaotic.bangl.de/$repo/x86_64
-Server = https://repo.kitsuna.net/x86_64
-#########################Must add keys for it
-#sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
-#sudo pacman-key --lsign-key 3056513887B78AEB
-EOF
-
-sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
-sudo pacman-key --lsign-key 3056513887B78AEB
-
 
 # setup blackarch linux
 blackarch_setup()
@@ -198,3 +183,4 @@ blackarch_setup()
   msg 'BlackArch Linux is ready!'
 }
 
+blackarch_setup

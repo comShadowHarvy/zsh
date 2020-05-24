@@ -2055,6 +2055,3 @@ TRACE () {
   echo "${PREFIX} ${funcfiletrace[1]}\n${PREFIX} $@\n${PREFIX} ${(j:\n:)funcstack}" >> $ANTIGEN_DEBUG_LOG
 }
 -antigen-env-setup
-
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d                                                                                            
-~/.emacs.d/bin/doom install

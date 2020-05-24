@@ -148,6 +148,11 @@ if [ -e ~/.zsh_files/aliases.zsh ]; then
      source ~/.zsh_files/aliases.zsh
 fi 
 
+# Load the Aliases1 file
+if [ -e ~/.aliases ]; then
+     source ~/.aliases
+fi 
+
 # Load the TinyCareTerminal file
 if [ -e ~/.zsh_files/tct.zsh ]; then
      source ~/.zsh_files/tct.zsh
@@ -248,3 +253,4 @@ startmyday () {
 }
 echo "2020 12 31" | awk '{dt=mktime($0 " 00 00 00")-systime(); print "There are " int(dt/86400/7) " weeks left until the year ends. What will you do?";}'
 
+### End of Zinit's installer chunk
