@@ -32,6 +32,7 @@ trizen -S --noconfirm neofetch
 trizen -S --noconfirm emacs 
 trizen -S --noconfirm nano 
 trizen -S --noconfirm tmux
+trizen -S --noconfirm okular
 trizen -S --noconfirm screen
 trizen -S --noconfirm cabal-install
 echo "yadm pull of .dot files"
