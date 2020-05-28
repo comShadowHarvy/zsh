@@ -197,7 +197,7 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 #echo "DOOM emacs"
 #git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 #~/.emacs.d/bin/doom install
-
+trizen -S python2-prettytable pythonect backhack  githack  hackersh  haskell-hackage-security hacked-aio-righty happy-hacking-linux xscreensaver-hacks
 sudo strap.sh
 mkdir git
 cd git
