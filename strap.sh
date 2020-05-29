@@ -129,9 +129,22 @@ update_pacman_conf()
   sed -i '/blackarch/{N;d}' /etc/pacman.conf
 
   cat >> "/etc/pacman.conf" << EOF
+[chaotic-aur]
+Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
+Server = http://chaotic.bangl.de/$repo/x86_64
+Server = https://repo.kitsuna.net/x86_64
+#########################Must add keys for it
+#sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
+#sudo pacman-key --lsign-key 3056513887B78AEB
+
+[archstrike]
+Server = http://archstrike.org:81/repo/$arch/$repo
+
 [blackarch]
 Include = /etc/pacman.d/$MIRROR_F
 EOF
+sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
+sudo pacman-key --lsign-key 3056513887B78AEB
 }
 
 # synchronize and update

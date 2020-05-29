@@ -6,25 +6,25 @@ sudo pacman-mirrors --api --set-branch unstable
 sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
 ######CHAOTIC AUR Support
 echo "CHAOTIC AUR Support"
-sudo cat >> "/etc/pacman.conf" << EOF
-[chaotic-aur]
-Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
-Server = http://chaotic.bangl.de/$repo/x86_64
-Server = https://repo.kitsuna.net/x86_64
+#sudo cat >> "/etc/pacman.conf" << EOF
+#[chaotic-aur]
+#Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
+#Server = http://chaotic.bangl.de/$repo/x86_64
+#Server = https://repo.kitsuna.net/x86_64
 #########################Must add keys for it
 #sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
 #sudo pacman-key --lsign-key 3056513887B78AEB
-
-[archstrike]
-Server = http://archstrike.org:81/repo/$arch/$repo
-
-EOF
+#
+#[archstrike]
+#Server = http://archstrike.org:81/repo/$arch/$repo
+#
+#EOF
 
 sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
 sudo pacman-key --lsign-key 3056513887B78AEB
 
 echo "BLACKARCH support"
-curl -O https://blackarch.org/strap.sh
+#curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sudo ./strap.sh
 
