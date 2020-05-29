@@ -1,5 +1,9 @@
 #!/bin/sh
 # strap1.sh - prep my system
+
+echo "Manjaro testing support"
+sudo pacman-mirrors --api --set-branch unstable
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
 ######CHAOTIC AUR Support
 echo "CHAOTIC AUR Support"
 sudo cat >> "/etc/pacman.conf" << EOF
