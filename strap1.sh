@@ -70,6 +70,7 @@ byobu-enable
 ./keybindings.pl -i /tmp/keys.csv
 #./keybindings.pl -e /tmp/keys.csv #export
 trizen -S --noconfirm tizonia 
+trizen -S --noconfirm zathura zathura-djvu zathura-pdf-poppler zathura-ps zathura-cb 
 trizen -S --noconfirm popcorntime
 trizen -S --noconfirm python3.7
 trizen -S --noconfirm asdf
