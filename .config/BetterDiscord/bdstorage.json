@@ -51,14 +51,19 @@
                 "TypingIndicator": true,
                 "VoiceUsersCounter": true,
                 "XenoLib": true,
-                "ZeresPluginLibrary": true
+                "ZeresPluginLibrary": true,
+                "Emulator": false,
+                "Minespoiler": false
             },
             "themes": {
-                "An_Orion_Deep_Field": true
+                "An_Orion_Deep_Field": true,
+                "four_twenty": false
             }
         },
         "canary": {},
         "ptb": {}
     },
-    "version": "0.3.4"
+    "version": "0.3.4",
+    "emoteCacheDays": 7,
+    "emoteCacheDate": "2020-05-30T08:49:58.127Z"
 }

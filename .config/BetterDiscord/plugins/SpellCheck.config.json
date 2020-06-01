@@ -3,10 +3,13 @@
 		"maxSimilarAmount": 6
 	},
 	"changelog": {
-		"currentversion": "1.4.3"
+		"currentversion": "1.4.7"
 	},
 	"choices": {
 		"dictionaryLanguage": "en",
 		"secondaryLanguage": "-"
+	},
+	"settings": {
+		"downloadDictionary": false
 	}
 }

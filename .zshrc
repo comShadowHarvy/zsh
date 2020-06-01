@@ -254,3 +254,4 @@ startmyday () {
 echo "2020 12 31" | awk '{dt=mktime($0 " 00 00 00")-systime(); print "There are " int(dt/86400/7) " weeks left until the year ends. What will you do?";}'
 
 ### End of Zinit's installer chunk
+### End of Zinit's installer chunk
