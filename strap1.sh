@@ -44,6 +44,12 @@ sudo pacman-key --lsign DA015B05B5A11B22
 
 gpg --keyserver pgp.mit.edu --recv-key 05CFBDF4423D800108F5BD332A07EF8371AFC028
 sudo pacman-key --lsign 05CFBDF4423D800108F5BD332A07EF8371AFC028
+gpg --keyserver pgp.mit.edu --recv-key 6DD4217456569BA711566AC7F06E8FDE7B45DAAC
+sudo pacman-key --lsign 6DD4217456569BA711566AC7F06E8FDE7B45DAAC
+gpg --keyserver pgp.mit.edu --recv-key 4F391B5FAB320916A90527E18CB4AB4206128D8F
+sudo pacman-key --lsign 4F391B5FAB320916A90527E18CB4AB4206128D8F 
+gpg --keyserver pgp.mit.edu --recv-key 688E1D093C3638F588890D4450268311C7AD3F62
+sudo pacman-key --lsign 688E1D093C3638F588890D4450268311C7AD3F62
 
 echo "trizen for AUR support"
 sudo pacman -S --noconfirm trizen zsh git git-lfs
