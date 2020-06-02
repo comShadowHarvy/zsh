@@ -478,7 +478,57 @@ Server = https://xyne.archlinux.ca/bin/repo.php?file=
 
 Server = https://xyne.mirrorrepo.com/repos/xyne
 # -----------------------------------------------------------------------------
+[mewle]
+SigLevel = Never
+Server = sourceforge.net/projects/mewle-os-repository/files/stable/
 
+[brinkOS]
+Server = sourceforge.net/projects/brinkos/files/package-repo/
+
+[obarun]
+Server = repo.obarun.org/\$arch
+
+
+[arcbasic_repo]
+Server = arcbasic.github.io/repo/\$arch
+
+
+[archlinux-ddosolitary]
+Server = archlinux-repo.sourceforge.io/packages
+SigLevel = Required
+
+
+[antergos]
+Server = mirrors.antergos.com/\$repo/\$arch
+Server = softlibre.unizar.es/cinnarch/\$repo/\$arch
+Server = glua.ua.pt/pub/antergos/\$repo/\$arch
+Server = cinnarch.polymorf.fr/\$repo/\$arch
+Server = eu.mirrors.coltondrg.com/antergos/\$repo/\$arch
+Server = mirror.de.leaseweb.net/antergos/\$repo/\$arch
+Server = mirror.alpix.eu/antergos/\$repo/\$arch
+Server = ftp.cc.uoc.gr/mirrors/linux/antergos/\$repo/\$arch
+Server = mirror.us.leaseweb.net/antergos/\$repo/\$arch
+Server = mirrors.tuxns.net/antergos/\$repo/\$arch
+Server = mirror.umd.edu/antergos/\$repo/\$arch
+Server = mirrors.acm.wpi.edu/antergos/\$repo/\$arch
+Server = mirrors.servercentral.com/antergos/\$repo/\$arch
+Server = antergos.mirror.constant.com/\$repo/\$arch
+Server = repo.antergos.info/\$repo/\$arch
+Server = mirror.yandex.ru/mirrors/cinnarch/\$repo/\$arch
+Server = mirror.antergos.jp/\$repo/\$arch
+Server = mirrors.ustc.edu.cn/antergos/\$repo/\$arch
+Server = mirrors.tuna.tsinghua.edu.cn/antergos/\$repo/\$arch
+Server = ftp.acc.umu.se/mirror/antergos.com/\$repo/\$arch
+Server = mirror.host.ag/antergos/\$repo/\$arch
+Server = wynsrv.antergos.info/antergos/\$repo/\$arch
+Server = mirrors.nic.cz/antergos/\$repo/\$arch
+Server = mirrors.dotsrc.org/antergos/\$repo/\$arch
+Server = www.mirrorservice.org/sites/repo.antergos.com/\$repo/\$arch
+Server = mirror.infotronik.hu/mirrors/pub/antergos/\$repo/\$arch
+Server = mirror.nl.leaseweb.net/antergos/\$repo/\$arch
+Server = ftp1.nluug.nl/os/Linux/distr/antergos/\$repo/\$arch
+Server = ftp2.nluug.nl/os/Linux/distr/antergos/\$repo/\$arch
+Server = mirror.neostrada.nl/antergos/\$repo/\$arch
 EOF
 sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
 sudo pacman-key --lsign-key 3056513887B78AEB
