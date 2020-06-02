@@ -1,9 +1,7 @@
 #!/bin/sh
 # strap1.sh - prep my system
 
-echo "Manjaro testing support"
-sudo pacman-mirrors --api --set-branch unstable
-sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
+
 ######CHAOTIC AUR Support
 echo "CHAOTIC AUR Support"
 #sudo cat >> "/etc/pacman.conf" << EOF
@@ -20,13 +18,32 @@ echo "CHAOTIC AUR Support"
 #
 #EOF
 
-sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
-sudo pacman-key --lsign-key 3056513887B78AEB
+
 
 echo "BLACKARCH support"
 #curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sudo ./strap.sh
+sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB
+sudo pacman-key --lsign-key 3056513887B78AEB
+gpg --keyserver pgp.mit.edu --recv-key 1D1F0DC78F173680
+sudo pacman-key --lsign 1D1F0DC78F173680
+gpg --keyserver pgp.mit.edu --recv-key 0x9437dd3815a7a9169e3d3946aff5d95098bc6ff5
+sudo pacman-key --lsign 0x9437dd3815a7a9169e3d3946aff5d95098bc6ff5
+sudo pacman-key --lsign AFF5D95098BC6FF5 ; gpg --keyserver pgp.mit.edu --recv-key 0xaff5d95098bc6ff5
+gpg --recv-keys 805517CC
+sudo pacman-key --lsign 4B7620E6805517CC
+gpg --recv-keys 805517CC
+sudo pacman-key --lsign 4B7620E6805517CC
+gpg --keyserver pgp.mit.edu --recv-key 25C2CACA47F0396DD76034244B7620E6805517CC
+sudo pacman-key --lsign 25C2CACA47F0396DD76034244B7620E6805517CC
+gpg --recv-keys DA015B05B5A11B22
+sudo pacman-key --recv DA015B05B5A11B22
+gpg --keyserver pgp.mit.edu --recv-key 0xda015b05b5a11b22
+sudo pacman-key --lsign DA015B05B5A11B22 
+
+gpg --keyserver pgp.mit.edu --recv-key 05CFBDF4423D800108F5BD332A07EF8371AFC028
+sudo pacman-key --lsign 05CFBDF4423D800108F5BD332A07EF8371AFC028
 
 echo "trizen for AUR support"
 sudo pacman -S --noconfirm trizen zsh git git-lfs
@@ -236,3 +253,10 @@ git clone https://github.com/wtfutil/wtf
 git clone https://github.com/sinclairzx81/zero
 git clone https://github.com/hugomd/parrot.live    
 git clone https://github.com/LazoCoder/Pokemon-Terminal
+git clone https://github.com/LukeSmithxyz/voidrice
+git clone https://github.com/LukeSmithxyz/LARBS
+git clone https://github.com/LukeSmithxyz/dwm
+git clone https://github.com/LukeSmithxyz/dwmblocks
+echo "Manjaro testing support"
+sudo pacman-mirrors --api --set-branch unstable
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
