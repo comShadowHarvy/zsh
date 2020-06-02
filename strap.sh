@@ -115,11 +115,11 @@ get_mirror()
   mirror_r="https://blackarch.org"
 
   msg "fetching new mirror list..."
-  if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F" ; then
-    err "we couldn't fetch the mirror list from: $mirror_r/$MIRROR_F"
+  if ! curl -s "$mirror_r/\$MIRROR_F" -o "$mirror_p/\$MIRROR_F" ; then
+    err "we couldn't fetch the mirror list from: $mirror_r/\$MIRROR_F"
   fi
 
-  msg "you can change the default mirror under $mirror_p/$MIRROR_F"
+  msg "you can change the default mirror under $mirror_p/\$MIRROR_F"
 }
 
 # update pacman.conf
@@ -148,126 +148,126 @@ Include = /etc/pacman.d/$MIRROR_F
 ######################################
 
 [liri-unstable]
-Server = repo.liri.io/archlinux/unstable/$arch/
+Server = repo.liri.io/archlinux/unstable/\$arch/
 
 #[obarun]
-#Server = repo.obarun.org/$arch
+#Server = repo.obarun.org/\$arch
 
 [theapps]
-Server = vicr123.github.io/repo/arch/$arch/
+Server = vicr123.github.io/repo/arch/\$arch/
 
 ##############################################
 ##############################################
 
 [arcbasic_repo]
-Server = arcbasic.github.io/repo/$arch
+Server = arcbasic.github.io/repo/\$arch
 
 [arcolinux_repo]
-Server = arcolinux.github.io/arcolinux_repo/$arch
+Server = arcolinux.github.io/arcolinux_repo/\$arch
 
 [arcolinux_repo_iso]
-Server = arcolinux.github.io/arcolinux_repo_iso/$arch
+Server = arcolinux.github.io/arcolinux_repo_iso/\$arch
 
 [archlinux-ddosolitary]
 Server = archlinux-repo.sourceforge.io/packages
 
 [aur-archlinux]
-Server = repo.itmettke.de/aur/$repo/$arch
+Server = repo.itmettke.de/aur/\$repo/\$arch
 
 [archlabs_repo]
-Server = archlabs.github.io/archlabs_repo/$arch
+Server = archlabs.github.io/archlabs_repo/\$arch
 
 [archman_repo]
-Server = archman.org/source/archman_repo/$arch
-Server = raw.github.com/Archman-OS/archman_repo/master/$arch
+Server = archman.org/source/archman_repo/\$arch
+Server = raw.github.com/Archman-OS/archman_repo/master/\$arch
 
 [anarchy]
-Server = anarchy-linux.org/repo/$arch
+Server = anarchy-linux.org/repo/\$arch
 
 [archlinuxfr]
-Server = repo.archlinux.fr/$arch
+Server = repo.archlinux.fr/\$arch
 
 [antergos]
-Server = cinnarch.polymorf.fr/$repo/$arch
+Server = cinnarch.polymorf.fr/\$repo/\$arch
 
 [archlinuxgr]
-Server = archlinuxgr.tiven.org/archlinux/$arch
+Server = archlinuxgr.tiven.org/archlinux/\$arch
 
 [archlinuxgr-any]
 Server = archlinuxgr.tiven.org/archlinux/any
 
 [archlinuxcn]
-Server = cdn.repo.archlinuxcn.org/$arch
-Server = mirrors.geekpie.org/archlinuxcn/$arch
-Server = mirrors.ustc.edu.cn/archlinuxcn/$arch
+Server = cdn.repo.archlinuxcn.org/\$arch
+Server = mirrors.geekpie.org/archlinuxcn/\$arch
+Server = mirrors.ustc.edu.cn/archlinuxcn/\$arch
 
 [alucryd]
-Server = pkgbuild.com/~alucryd/$repo/x86_64
+Server = pkgbuild.com/~alucryd/\$repo/x86_64
 
 [alucryd-multilib]
-Server = pkgbuild.com/~alucryd/$repo/x86_64
+Server = pkgbuild.com/~alucryd/\$repo/x86_64
 
 [andrwe]
 Server = repo.andrwe.org/x86_64
 
 [arcanisrepo]
-Server = repo.arcanis.me/repo/$arch
-Server = repo.arcanis.me/repo/$arch
+Server = repo.arcanis.me/repo/\$arch
+Server = repo.arcanis.me/repo/\$arch
 
 [ashleyis]
-Server = arch.ashleytowns.id.au/repo/$arch
+Server = arch.ashleytowns.id.au/repo/\$arch
 
 [archstrike]
-Server = mirror.archstrike.org/$arch/$repo
+Server = mirror.archstrike.org/\$arch/\$repo
 
 [archstrike-testing]
-Server = mirror.archstrike.org/$arch/$repo
+Server = mirror.archstrike.org/\$arch/\$repo
 
 [bluestar]
-Server = downloads.sourceforge.net/project/bluestarlinux/repo/$arch
+Server = downloads.sourceforge.net/project/bluestarlinux/repo/\$arch
 
 [blackarch]
-Server = mirror.team-cymru.org/blackarch/$repo/os/$arch
+Server = mirror.team-cymru.org/blackarch/\$repo/os/\$arch
 
 [bbqlinux]
-Server = packages.bbqlinux.org/$repo/os/$arch
-Server = mirror.amagital.com/$repo/os/$arch
+Server = packages.bbqlinux.org/\$repo/os/\$arch
+Server = mirror.amagital.com/\$repo/os/\$arch
 
 [coderkun-aur]
-Server = arch.coderkun.de/$repo/$arch/
+Server = arch.coderkun.de/\$repo/\$arch/
 
 [coderkun-aur-audio]
-Server = arch.coderkun.de/$repo/$arch/
+Server = arch.coderkun.de/\$repo/\$arch/
 
 [condresrepo]
 Server = repository.codelinsoft.it/condres-core-signed/
 
 [city]
-Server = pkgbuild.com/~bgyorgy/$repo/os/$arch
+Server = pkgbuild.com/~bgyorgy/\$repo/os/\$arch
 
 [eatabrick]
-Server = repo.eatabrick.org/$arch
+Server = repo.eatabrick.org/\$arch
 
 [eschwartz]
-Server = pkgbuild.com/~eschwartz/repo/$arch
+Server = pkgbuild.com/~eschwartz/repo/\$arch
 
 [heftig]
-Server = pkgbuild.com/~heftig/repo/$arch
+Server = pkgbuild.com/~heftig/repo/\$arch
 
 [home_fusion809_Arch_Extra]
-Server = download.opensuse.org/repositories/home:/fusion809/Arch_Extra/$arch
+Server = download.opensuse.org/repositories/home:/fusion809/Arch_Extra/\$arch
 
 [home_Minerva_W_Science_Arch_Extra]
-Server = download.opensuse.org/repositories/home:/Minerva_W:/Science/Arch_Extra/$arch
+Server = download.opensuse.org/repositories/home:/Minerva_W:/Science/Arch_Extra/\$arch
 
 [home_Head_on_a_Stick_Arch_Arch_Extra]
-Server = download.opensuse.org/repositories/home:/Head_on_a_Stick:/Arch/Arch_Extra/$arch
+Server = download.opensuse.org/repositories/home:/Head_on_a_Stick:/Arch/Arch_Extra/\$arch
 
 [home_Pival81_arch_xapps_Arch_Extra]
-Server = download.opensuse.org/repositories/home:/Pival81:/arch:/xapps/Arch_Extra/$arch
+Server = download.opensuse.org/repositories/home:/Pival81:/arch:/xapps/Arch_Extra/\$arch
 
 [home-thaodan]
-Server = thaodan.de/home/bidar/home-thaodan/$arch
+Server = thaodan.de/home/bidar/home-thaodan/\$arch
 
 [herecura]
 Server = repo.herecura.be/herecura/x86_64
@@ -288,17 +288,17 @@ Server = jlk.fjfi.cvut.cz/arch/repo
 Server = www.antergos.kamprad.net/antergos-packages
 
 [jkanetwork]
-Server = repo.jkanetwork.com/repo/$repo/
+Server = repo.jkanetwork.com/repo/\$repo/
 
 [kpiche]
 Server = kpiche.archlinux.ca/repo
 Server = kpiche.archlinux.ca/repo/os/x86_64
 
 [markzz]
-Server = repo.markzz.com/arch/$repo/$arch
+Server = repo.markzz.com/arch/\$repo/\$arch
 
 [miffe]
-Server = arch.miffe.org/$arch/
+Server = arch.miffe.org/\$arch/
 
 [magpieos]
 Server = rizwan-hasan.github.io/MagpieOS-Repository/
@@ -307,13 +307,13 @@ Server = rizwan-hasan.github.io/MagpieOS-Repository/
 Server = mikelpint.github.io/repository/archlinux/repo
 
 [namibrepo]
-Server = namibrepo.meerkat.tk/$arch
+Server = namibrepo.meerkat.tk/\$arch
 
 [ninjaos]
-Server=http://ninjaos.org/repo/$arch
+Server=http://ninjaos.org/repo/\$arch
 
 [ownstuff]
-Server = martchus.no-ip.biz/repo/arch/$repo/os/$arch
+Server = martchus.no-ip.biz/repo/arch/\$repo/os/\$arch
 
 [pkgbuilder]
 Server = pkgbuilder-repo.chriswarrick.com/
@@ -326,28 +326,28 @@ Server = sourceforge.net/projects/portergosrepository/files/portergos/
 Server = sourceforge.net/projects/antergos-deepin/files/
 
 [repo-ck]
-Server = repo-ck.com/$arch
-Server = mirrors.nju.edu.cn/repo-ck/$arch
+Server = repo-ck.com/\$arch
+Server = mirrors.nju.edu.cn/repo-ck/\$arch
 
 [revenge_repo]
-Server = downloads.sourceforge.net/project/revenge-repo/revenge_repo/$arch
-Server = ftp.heanet.ie/mirrors/sourceforge/r/re/revenge-repo/revenge_repo/$arch
-Server = raw.github.com/obrevenge/revenge_repo/master/$arch
+Server = downloads.sourceforge.net/project/revenge-repo/revenge_repo/\$arch
+Server = ftp.heanet.ie/mirrors/sourceforge/r/re/revenge-repo/revenge_repo/\$arch
+Server = raw.github.com/obrevenge/revenge_repo/master/\$arch
 
 [swagarchrepo]
 Server=https://github.com/SwagArch/swagarch-packages/releases/download/swagarchrepo/
 
 [seblu]
-Server = al.seblu.net/$repo/$arch
+Server = al.seblu.net/\$repo/\$arch
 
 [seiichiro]
-Server = www.seiichiro0185.org/repo/$arch
+Server = www.seiichiro0185.org/repo/\$arch
 
 [sergej-repo]
-Server = repo.p5n.pp.ru/$repo/os/$arch
+Server = repo.p5n.pp.ru/\$repo/os/\$arch
 
 [siosm-aur]
-Server = siosm.fr/repo/$repo/
+Server = siosm.fr/repo/\$repo/
 
 [spooky_aur]
 #Server = github.com/spookykidmm/spooky_aur/tree/master/x86_64
@@ -359,10 +359,10 @@ Server = xyne.archlinux.ca/repos/xyne
 #################### Manjaro Repos -----
 
 [kibojoe]
-Server = repo.kibojoe.org/stable/$arch/
+Server = repo.kibojoe.org/stable/\$arch/
 
 [netrunner]
-Server = arch.netrunner.com/netrunner/$arch
+Server = arch.netrunner.com/netrunner/\$arch
 
 #####################################################
 #################### RusPuppy Repos -----
