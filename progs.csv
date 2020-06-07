@@ -14,7 +14,11 @@ A,okular
 A,screen
 A,cabal-install
 A,tizonia
-A,zathura zathura-djvu zathura-pdf-poppler zathura-ps zathura-cb
+A,zathura 
+A,zathura-djvu
+A,zathura-pdf-poppler 
+A,zathura-ps 
+A,zathura-cb
 A,popcorntime
 A,python3.7
 A,asdf

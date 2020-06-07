@@ -36,3 +36,4 @@ chmod +x install.sh
 cd ..
 yadm clone https://github.com/jimbob343/zsh
 yadm status
+pip install psutil
