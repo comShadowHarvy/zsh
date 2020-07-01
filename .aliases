@@ -384,3 +384,13 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+alias stress='flatpak run com.leinardi.gst'
+alias teams='flatpak run com.microsoft.Teams'
+alias fmine='flatpak run com.mojang.Minecraft'
+alias sprite='flatpak run com.github.libresprite.LibreSprite'
+alias mtest='flatpak run net.minetest.Minetest'
+alias fskype='flatpak run com.skype.Client'
+alias ftele='flatpak run org.telegram.desktop'
+alias studio='flatpak run com.visualstudio.code'
+alias fzoom='flatpak run us.zoom.Zoom'
