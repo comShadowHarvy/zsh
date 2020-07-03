@@ -110,6 +110,49 @@ export WORDCHARS='*?[]~&;!$%^<>'
 # Highlight search results in ack.
 export ACK_COLOR_MATCH='red'
 
+# vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+# Use vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -v '^?' backward-delete-char
+
+# Change cursor shape for different vi modes.
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] ||
+     [[ $1 = 'block' ]]; then
+    echo -ne '\e[1 q'
+  elif [[ ${KEYMAP} == main ]] ||
+       [[ ${KEYMAP} == viins ]] ||
+       [[ ${KEYMAP} = '' ]] ||
+       [[ $1 = 'beam' ]]; then
+    echo -ne '\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+zle-line-init() {
+    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    echo -ne "\e[5 q"
+}
+zle -N zle-line-init
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+# Use lf to switch directories and bind it to ctrl-o
+lfcd () {
+    tmp="$(mktemp)"
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp" >/dev/null
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+
 
 # Activate the closest virtualenv by looking in parent directories.
 activate_virtualenv() {
@@ -136,7 +179,9 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
         print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
         print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
-
+export ANKI_ROBOT_SERIAL=008089cf
+export ANKI_ROBOT_HOST="192.168.1.56"
+export VECTOR_ROBOT_NAME=Vector-w4v1
 
 # Load the Variables file
 if [ -e ~/.zsh_files/variables.zsh ]; then
@@ -201,6 +246,8 @@ zplug "lib/history",      from:oh-my-zsh
 zplug "lib/key-bindings", from:oh-my-zsh
 zplug "lib/termsupport",  from:oh-my-zsh
 zplug "lib/directories",  from:oh-my-zsh
+zplug "plugins/nmap",  from:oh-my-zsh
+
 
 # for speed debug. mine ? 230ms, not bad tho
 # zplug "paulmelnikow/zsh-startup-timer"
