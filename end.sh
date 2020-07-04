@@ -37,6 +37,10 @@ cd ..
 yadm clone https://github.com/jimbob343/zsh
 yadm status
 pip install psutil
+pip3 install feedparser
+pip3 install --user anki_vector
+python3 -m pip install --user anki_vector
+
 #stress
 flatpak install flathub com.leinardi.gst
 flatpak install flathub us.zoom.Zoom
