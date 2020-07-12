@@ -289,6 +289,7 @@ startmyday () {
   echo "Good morning, ShadowHarvy."
   echo "\nUpdating..."
   pacui u
+python3 -m pip install --user --upgrade anki_vector
   echo "\nThe weather right now:"
   ansiweather -l Toronto
 #  echo "\nNews from the BBC:"
