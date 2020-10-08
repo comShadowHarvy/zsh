@@ -15,7 +15,7 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 	*) printf "Invalid option: -%s\\n" "$OPTARG" && exit ;;
 esac done
 
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/jimbob343/zsh/master/progs.csv"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/jimbob343/zsh/master/progsnowm.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
 
