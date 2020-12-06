@@ -303,3 +303,6 @@ echo "2020 12 31" | awk '{dt=mktime($0 " 00 00 00")-systime(); print "There are 
 
 ### End of Zinit's installer chunk
 ### End of Zinit's installer chunk
+
+eval "$(starship init zsh)"
+(( ! ${+functions[p10k]} )) || p10k finalize
