@@ -106,7 +106,30 @@ A,rofi-twitch
 A,rofi-wifi-menu-git
 A,sandmap
 A,discord
-
+A,starship
+A,freeoffice
+A,openoffice
+A,gimp
+A,krita
+A,ShowFoto
+A,Rawtherapee
+A,Fotoxx
+A,Inkscape
+A,LightZone
+A,Pixeluvo
+A,Photivo
+A,Aftershotpro
+A,Darktable
+A,Kdenlive
+A,Shotcut
+A,Pitivi
+A,Cinelerra
+A,LiVES
+A,OpenShot
+A,Vivia
+A,Lightworks
+A,
+A,digikam
 ,xorg-server,"is the graphical server."
 ,xorg-xwininfo,"allows querying information about windows."
 ,xorg-xinit,"starts the graphical server."
