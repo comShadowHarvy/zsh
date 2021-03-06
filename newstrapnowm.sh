@@ -15,6 +15,8 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 	*) printf "Invalid option: -%s\\n" "$OPTARG" && exit ;;
 esac done
 
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
+[ -z "$dotfilesrepo2" ] && dotfilesrepo2="https://github.com/jimbob343/zsh.git"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/jimbob343/zsh/master/progsnowm.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
@@ -224,6 +226,9 @@ yes | sudo -u "$name" $aurhelper -S libxft-bgra >/dev/null 2>&1
 
 # Install the dotfiles in the user's home directory
 
+
+putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
+putgitrepo "$dotfilesrepo2" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md"
