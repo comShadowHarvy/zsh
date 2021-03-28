@@ -54,5 +54,8 @@ flatpak install flathub com.microsoft.Teams
 
 
 
-
+git clone https://github.com/flubberding/ProtonUpdater
+cd ProtonUpdater
+chmod +x updatePGEfast.sh
+./updatePGEfast.sh
 
