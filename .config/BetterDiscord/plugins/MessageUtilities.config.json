@@ -1,18 +1,8 @@
 {
 	"bindings": {
-		"Copy_Link": {
-			"click": 0,
-			"keycombo": [
-				17,
-				81
-			]
-		},
-		"Copy_Raw": {
-			"click": 0,
-			"keycombo": [
-				17,
-				68
-			]
+		"Edit_Message": {
+			"click": 1,
+			"keycombo": []
 		},
 		"Delete_Message": {
 			"click": 0,
@@ -20,21 +10,17 @@
 				46
 			]
 		},
-		"Edit_Message": {
-			"click": 1,
-			"keycombo": []
-		},
 		"Pin/Unpin_Message": {
 			"click": 0,
 			"keycombo": [
 				17
 			]
 		},
-		"Quote_Message": {
+		"Reply_to_Message": {
 			"click": 0,
 			"keycombo": [
 				17,
-				87
+				84
 			]
 		},
 		"React_to_Message": {
@@ -44,10 +30,37 @@
 				83
 			]
 		},
+		"Copy_Raw": {
+			"click": 0,
+			"keycombo": [
+				17,
+				68
+			]
+		},
+		"Copy_Link": {
+			"click": 0,
+			"keycombo": [
+				17,
+				81
+			]
+		},
+		"__Quote_Message": {
+			"click": 0,
+			"keycombo": [
+				17,
+				87
+			]
+		},
 		"__Note_Message": {
 			"click": 0,
 			"keycombo": [
 				16
+			]
+		},
+		"__Translate_Message": {
+			"click": 0,
+			"keycombo": [
+				20
 			]
 		},
 		"__Reveal_Spoilers": {
@@ -56,38 +69,33 @@
 				17,
 				74
 			]
-		},
-		"__Translate_Message": {
-			"click": 0,
-			"keycombo": [
-				20
-			]
 		}
 	},
 	"changelog": {
 		"currentversion": "1.7.3"
 	},
 	"settings": {
-		"Copy_Link": true,
-		"Copy_Raw": true,
-		"Delete_Message": true,
-		"Edit_Message": true,
-		"Pin/Unpin_Message": true,
-		"Quote_Message": true,
-		"React_to_Message": true,
-		"__Note_Message": false,
-		"__Reveal_Spoilers": false,
-		"__Translate_Message": false,
 		"addHints": true,
-		"clearOnEscape": true
+		"clearOnEscape": true,
+		"Edit_Message": true,
+		"Delete_Message": true,
+		"Pin/Unpin_Message": true,
+		"Reply_to_Message": true,
+		"React_to_Message": true,
+		"Copy_Raw": true,
+		"Copy_Link": true,
+		"__Quote_Message": false,
+		"__Note_Message": false,
+		"__Translate_Message": false,
+		"__Reveal_Spoilers": false
 	},
 	"toasts": {
-		"Copy_Link": true,
-		"Copy_Raw": true,
-		"Delete_Message": true,
 		"Edit_Message": true,
+		"Delete_Message": true,
 		"Pin/Unpin_Message": true,
-		"Quote_Message": false,
-		"React_to_Message": false
+		"Reply_to_Message": true,
+		"React_to_Message": false,
+		"Copy_Raw": true,
+		"Copy_Link": true
 	}
 }

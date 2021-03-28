@@ -5,6 +5,16 @@
 	"choices": {
 		"joinedAtDateLang": "$discord"
 	},
+	"dates": {
+		"joinedAtDate": {}
+	},
+	"general": {
+		"displayText": true
+	},
+	"places": {
+		"userPopout": true,
+		"userProfile": true
+	},
 	"settings": {
 		"addInUserPopout": true,
 		"addInUserProfil": true,
