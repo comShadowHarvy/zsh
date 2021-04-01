@@ -62,4 +62,4 @@ cd ..
 
 git clone https://github.com/excalibur1234/pacui
 cd pacui
-
+makepkg -Acsi
