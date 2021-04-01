@@ -58,4 +58,8 @@ git clone https://github.com/flubberding/ProtonUpdater
 cd ProtonUpdater
 chmod +x updatePGEfast.sh
 ./updatePGEfast.sh
+cd ..
+
+git clone https://github.com/excalibur1234/pacui
+cd pacui
 
