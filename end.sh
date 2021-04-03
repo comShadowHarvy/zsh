@@ -33,6 +33,8 @@ git clone https://github.com/jimbob343/rofi.config/
 cd rofi.config
 chmod +x install.sh
 ./install.sh
+
+curl -sLf https://spacevim.org/install.sh | bash
 cd ..
 yadm clone https://github.com/jimbob343/zsh
 yadm status
