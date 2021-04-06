@@ -44,15 +44,15 @@ pip3 install --user anki_vector
 python3 -m pip install --user anki_vector
 
 #stress
-flatpak install flathub com.leinardi.gst
-flatpak install flathub us.zoom.Zoom
-flatpak install flathub com.visualstudio.code
-flatpak install flathub org.telegram.desktop
-flatpak install flathub com.skype.Client
-flatpak install flathub net.minetest.Minetest
-flatpak install flathub com.github.libresprite.LibreSprite
-flatpak install flathub com.mojang.Minecraft
-flatpak install flathub com.microsoft.Teams
+#flatpak install flathub com.leinardi.gst
+#flatpak install flathub us.zoom.Zoom
+#flatpak install flathub com.visualstudio.code
+#flatpak install flathub org.telegram.desktop
+#flatpak install flathub com.skype.Client
+#flatpak install flathub net.minetest.Minetest
+#flatpak install flathub com.github.libresprite.LibreSprite
+#flatpak install flathub com.mojang.Minecraft
+#flatpak install flathub com.microsoft.Teams
 
 
 
