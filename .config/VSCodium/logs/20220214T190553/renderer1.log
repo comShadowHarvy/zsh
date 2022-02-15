@@ -1,0 +1,20 @@
+[2022-02-14 19:06:00.089] [renderer1] [error] Error: File not found
+    at S.handleSetInputError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2351:107078)
+    at async S.setInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2351:106753)
+    at async i.doSetInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2351:26831)
+    at async i.doOpenEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2351:25204)
+    at async i.openEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2351:24830)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2551:16600
+[2022-02-14 19:06:00.531] [renderer1] [info] IExtensionHostStarter.start() took 92 ms.
+[2022-02-14 19:06:03.515] [renderer1] [error] [Extension Host] (node:2770089) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-02-14 19:06:05.838] [renderer1] [error] [Extension Host] /bin/sh: line 1: direnv: command not found
+[2022-02-14 19:06:14.221] [renderer1] [error] /bin/sh: line 1: direnv: command not found
+: Error: /bin/sh: line 1: direnv: command not found
+
+	at ChildProcess.exithandler (child_process.js:317:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1048:16)
+	at Socket.<anonymous> (internal/child_process.js:439:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:673:12)

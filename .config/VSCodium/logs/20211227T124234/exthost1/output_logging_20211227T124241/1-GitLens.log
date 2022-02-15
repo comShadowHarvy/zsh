@@ -1,0 +1,1 @@
+[2021-12-27 17:42:44:698] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false show --textconv 8cd8d859cd92f1fd13094265cef2a978e5b47cc6:./payloads/library/recon/Win_PoSH_WordReport/payload.txt --): 

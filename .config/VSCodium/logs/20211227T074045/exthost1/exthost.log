@@ -1,0 +1,215 @@
+[2021-12-27 07:40:53.757] [exthost] [info] Extension host with pid 629743 started
+[2021-12-27 07:40:53.981] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-27 07:40:54.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-27 07:40:54.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-27 07:40:54.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-27 07:40:54.540] [exthost] [info] Eager extensions activated
+[2021-12-27 07:40:54.672] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:40:54.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:41:01.485] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2021-12-27 07:41:01.648] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-27 07:41:01.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-27 07:41:01.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-27 07:41:01.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-27 07:41:02.182] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-27 07:41:02.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-27 07:41:17.680] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:41:40.065] [exthost] [info] ExtensionService#_doActivateExtension buianhthang.gitflow, startup: false, activationEvent: '*'
+[2021-12-27 07:41:40.109] [exthost] [error] Activating extension buianhthang.gitflow failed due to an error:
+[2021-12-27 07:41:40.109] [exthost] [error] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+	at validateString (internal/validators.js:124:11)
+	at Object.join (path.js:1039:7)
+	at /home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0/out/src/flow.js:22:24
+	at Object.<anonymous> (/home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0/out/src/flow.js:209:3)
+	at Module.u._compile (/usr/share/vscodium/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.t._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+	at Function.p._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+	at Function.f._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at h (/usr/share/vscodium/resources/app/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0/out/src/cmd.js:15:16)
+	at Module.u._compile (/usr/share/vscodium/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.t._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+	at Function.p._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+	at Function.f._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at h (/usr/share/vscodium/resources/app/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0/out/src/git.js:15:15)
+	at Module.u._compile (/usr/share/vscodium/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.t._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+	at Function.p._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+	at Function.f._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at h (/usr/share/vscodium/resources/app/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0/out/src/extension.js:13:15)
+	at Module.u._compile (/usr/share/vscodium/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.t._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+	at Function.p._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+	at Function.f._load (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/share/vscodium/resources/app/out/vs/loader.js:5:101)
+	at v._loadCommonJSModule (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:30297)
+	at v._doActivateExtension (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:12958)
+	at v._activateExtension (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:11931)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+	at async v.$activate (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:20806)
+[2021-12-27 07:41:42.430] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: false, activationEvent: '*'
+[2021-12-27 07:41:42.520] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:41:42.620] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+[2021-12-27 07:41:42.684] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:41:52.552] [exthost] [info] ExtensionService#_doActivateExtension entepe85.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:41:52.952] [exthost] [error] Activating extension entepe85.gitlens failed due to an error:
+[2021-12-27 07:41:52.952] [exthost] [error] Error: command 'gitlens.key.left' already exists
+	at registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:29537)
+	at Object.registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:21205)
+	at /home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432990
+	at Array.map (<anonymous>)
+	at new Keyboard (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432971)
+	at Function.initialize (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:511354)
+	at g (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:627544)
+	at async Promise.all (index 0)
+	at async v.$activate (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:20806)
+[2021-12-27 07:43:08.600] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-27 07:43:08.672] [exthost] [info] Extension host with pid 629743 exiting with code 0
+[2021-12-27 07:43:15.208] [exthost] [info] Extension host with pid 630115 started
+[2021-12-27 07:43:15.208] [exthost] [info] Skipping acquiring lock for /home/me/.config/VSCodium/User/workspaceStorage/b44da1e25a5290b0bda0d8f3cb1ba818.
+[2021-12-27 07:43:15.360] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-27 07:43:15.369] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-27 07:43:15.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-27 07:43:15.522] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-27 07:43:15.660] [exthost] [info] Eager extensions activated
+[2021-12-27 07:43:15.743] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:15.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:15.763] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:15.857] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:16.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-27 07:43:20.769] [exthost] [info] ExtensionService#_doActivateExtension buianhthang.gitflow, startup: false, activationEvent: '*'
+[2021-12-27 07:43:20.787] [exthost] [info] ExtensionService#_doActivateExtension entepe85.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:20.867] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 07:43:20.928] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+[2021-12-27 07:43:20.983] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: false, activationEvent: '*'
+[2021-12-27 07:43:21.235] [exthost] [error] Activating extension entepe85.gitlens failed due to an error:
+[2021-12-27 07:43:21.235] [exthost] [error] Error: command 'gitlens.key.left' already exists
+	at registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:29537)
+	at Object.registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:21205)
+	at /home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432990
+	at Array.map (<anonymous>)
+	at new Keyboard (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432971)
+	at Function.initialize (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:511354)
+	at g (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:627544)
+	at async Promise.all (index 0)
+	at async v.$activate (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:20806)
+[2021-12-27 07:48:36.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-27 07:48:36.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-27 07:48:36.223] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-27 07:48:36.231] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-27 07:48:36.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-27 07:52:22.197] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 07:52:22.198] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 07:54:06.265] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 07:54:06.266] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:26.620] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:26.621] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:30.993] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:30.994] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:51.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-27 08:01:51.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:01:52.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:02:57.411] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:02:57.415] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:02:57.415] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:03:07.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-27 08:03:18.847] [exthost] [info] ExtensionService#_doActivateExtension cab404.vscode-direnv, startup: false, activationEvent: '*'
+[2021-12-27 08:03:18.893] [exthost] [info] ExtensionService#_doActivateExtension foxundermoon.shell-format, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 08:03:18.907] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 08:03:19.024] [exthost] [info] ExtensionService#_doActivateExtension timonwong.shellcheck, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 08:03:19.119] [exthost] [info] ExtensionService#_doActivateExtension mads-hartmann.bash-ide-vscode, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 08:05:09.732] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:05:09.732] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:10:31.928] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:10:31.929] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:14:00.002] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:14:00.002] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:14:40.939] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:14:40.940] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:15:13.439] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:15:13.440] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:15:49.670] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:15:49.670] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:16:18.119] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:16:18.120] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:16:23.233] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:16:23.233] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:17:09.780] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:17:09.780] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:17:29.866] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:17:29.866] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:18:32.819] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:18:32.819] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:04.734] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:04.735] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:09.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-27 08:20:10.328] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-27 08:20:37.953] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:37.954] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:59.481] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:20:59.481] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:21:18.681] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:21:18.682] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:25:26.101] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:25:26.101] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:25:39.893] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:25:39.893] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:26:13.015] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:26:13.015] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:26:50.483] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:26:50.483] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:04.696] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:04.696] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:14.450] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:14.450] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:45.679] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:27:45.680] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:28:39.457] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:28:39.457] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:28:59.987] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:28:59.987] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:29:13.897] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:29:13.897] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:32:32.357] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:32:32.357] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:40:50.747] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:40:50.747] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:41:00.837] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:41:00.837] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:58:29.677] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-27 08:58:29.743] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:58:29.743] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:58:29.743] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:58:29.743] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-27 08:58:29.794] [exthost] [info] Extension host with pid 630115 exiting with code 0

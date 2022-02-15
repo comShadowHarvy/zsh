@@ -1,0 +1,118 @@
+[2021-12-27 07:41:13.198] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-12-27 07:41:15.744] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/me/.config/VSCodium/CachedExtensionVSIXs/esbenp.prettier-vscode-9.0.0
+[2021-12-27 07:41:17.110] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.438cb4f3-d82d-45ba-a13e-3e815bcd6a35: esbenp.prettier-vscode
+[2021-12-27 07:41:17.131] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/esbenp.prettier-vscode-9.0.0
+[2021-12-27 07:41:17.136] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2021-12-27 07:41:17.143] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2021-12-27 07:41:33.186] [sharedprocess] [info] Installing extension: pinage404.git-extension-pack
+[2021-12-27 07:41:36.414] [sharedprocess] [info] Installing extension: eamodio.gitlens
+[2021-12-27 07:41:36.415] [sharedprocess] [info] Installing extension: felipecaputo.git-project-manager
+[2021-12-27 07:41:36.416] [sharedprocess] [info] Installing extension: mhutchie.git-graph
+[2021-12-27 07:41:36.417] [sharedprocess] [info] Installing extension: reduckted.vscode-gitweblinks
+[2021-12-27 07:41:36.418] [sharedprocess] [info] Extension is already requested to install reduckted.vscode-gitweblinks
+[2021-12-27 07:41:36.419] [sharedprocess] [info] Extension is already requested to install mhutchie.git-graph
+[2021-12-27 07:41:36.421] [sharedprocess] [info] Extension is already requested to install reduckted.vscode-gitweblinks
+[2021-12-27 07:41:36.422] [sharedprocess] [info] Extension is already requested to install felipecaputo.git-project-manager
+[2021-12-27 07:41:36.423] [sharedprocess] [info] Extension is already requested to install mhutchie.git-graph
+[2021-12-27 07:41:36.424] [sharedprocess] [info] Extension is already requested to install reduckted.vscode-gitweblinks
+[2021-12-27 07:41:37.629] [sharedprocess] [info] Downloaded extension: felipecaputo.git-project-manager /home/me/.config/VSCodium/CachedExtensionVSIXs/felipecaputo.git-project-manager-1.8.2
+[2021-12-27 07:41:37.792] [sharedprocess] [info] Downloaded extension: reduckted.vscode-gitweblinks /home/me/.config/VSCodium/CachedExtensionVSIXs/reduckted.vscode-gitweblinks-2.6.0
+[2021-12-27 07:41:37.948] [sharedprocess] [info] Downloaded extension: eamodio.gitlens /home/me/.config/VSCodium/CachedExtensionVSIXs/eamodio.gitlens-11.7.0
+[2021-12-27 07:41:37.984] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.5acf02f7-be61-4868-ad50-3aaac2c56f34: reduckted.vscode-gitweblinks
+[2021-12-27 07:41:38.007] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/reduckted.vscode-gitweblinks-2.6.0
+[2021-12-27 07:41:38.015] [sharedprocess] [info] Extracting completed. reduckted.vscode-gitweblinks
+[2021-12-27 07:41:38.041] [sharedprocess] [info] Installing extension: buianhthang.gitflow
+[2021-12-27 07:41:38.254] [sharedprocess] [info] Downloaded extension: mhutchie.git-graph /home/me/.config/VSCodium/CachedExtensionVSIXs/mhutchie.git-graph-1.30.0
+[2021-12-27 07:41:38.914] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.398924b3-f11f-4a6a-9440-41f2512642c1: felipecaputo.git-project-manager
+[2021-12-27 07:41:38.932] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/felipecaputo.git-project-manager-1.8.2
+[2021-12-27 07:41:38.937] [sharedprocess] [info] Extracting completed. felipecaputo.git-project-manager
+[2021-12-27 07:41:39.328] [sharedprocess] [info] Downloaded extension: buianhthang.gitflow /home/me/.config/VSCodium/CachedExtensionVSIXs/buianhthang.gitflow-2.1.0
+[2021-12-27 07:41:39.336] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.c2b839c4-f138-4dfc-8c38-a1c7bd3c863b: mhutchie.git-graph
+[2021-12-27 07:41:39.358] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/mhutchie.git-graph-1.30.0
+[2021-12-27 07:41:39.365] [sharedprocess] [info] Extracting completed. mhutchie.git-graph
+[2021-12-27 07:41:39.625] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.6347755b-6035-48b6-95a0-8667ef36929d: buianhthang.gitflow
+[2021-12-27 07:41:39.641] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/buianhthang.gitflow-2.1.0
+[2021-12-27 07:41:39.649] [sharedprocess] [info] Extracting completed. buianhthang.gitflow
+[2021-12-27 07:41:39.654] [sharedprocess] [info] Extension installed successfully: buianhthang.gitflow
+[2021-12-27 07:41:40.466] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.7549b31b-bed8-4fca-b354-fc3d77c7fe0e: eamodio.gitlens
+[2021-12-27 07:41:40.530] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/eamodio.gitlens-11.7.0
+[2021-12-27 07:41:40.551] [sharedprocess] [info] Extracting completed. eamodio.gitlens
+[2021-12-27 07:41:41.095] [sharedprocess] [info] Downloaded extension: pinage404.git-extension-pack /home/me/.config/VSCodium/CachedExtensionVSIXs/pinage404.git-extension-pack-1.0.0
+[2021-12-27 07:41:41.120] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.b27ce914-d89b-49e0-abd8-1e0085e28ef7: pinage404.git-extension-pack
+[2021-12-27 07:41:41.130] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/pinage404.git-extension-pack-1.0.0
+[2021-12-27 07:41:41.133] [sharedprocess] [info] Extracting completed. pinage404.git-extension-pack
+[2021-12-27 07:41:41.149] [sharedprocess] [info] Extension installed successfully: reduckted.vscode-gitweblinks
+[2021-12-27 07:41:41.150] [sharedprocess] [info] Extension installed successfully: felipecaputo.git-project-manager
+[2021-12-27 07:41:41.151] [sharedprocess] [info] Extension installed successfully: mhutchie.git-graph
+[2021-12-27 07:41:41.152] [sharedprocess] [info] Extension installed successfully: eamodio.gitlens
+[2021-12-27 07:41:41.152] [sharedprocess] [info] Extension installed successfully: pinage404.git-extension-pack
+[2021-12-27 07:41:48.777] [sharedprocess] [info] Installing extension: entepe85.gitlens
+[2021-12-27 07:41:50.068] [sharedprocess] [info] Downloaded extension: entepe85.gitlens /home/me/.config/VSCodium/CachedExtensionVSIXs/entepe85.gitlens-11.0.2
+[2021-12-27 07:41:51.331] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.8849ca36-f82a-42fd-8d26-ac4d4ee19057: entepe85.gitlens
+[2021-12-27 07:41:51.380] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2
+[2021-12-27 07:41:51.392] [sharedprocess] [info] Extracting completed. entepe85.gitlens
+[2021-12-27 07:41:51.408] [sharedprocess] [info] Extension installed successfully: entepe85.gitlens
+[2021-12-27 07:43:13.510] [sharedprocess] [info] Starting worker process with pid 630132 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-27 08:02:58.183] [sharedprocess] [info] Installing extension: pinage404.bash-extension-pack
+[2021-12-27 08:03:03.211] [sharedprocess] [info] Installing extension: cab404.vscode-direnv
+[2021-12-27 08:03:03.211] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2021-12-27 08:03:03.212] [sharedprocess] [info] Installing extension: foxundermoon.shell-format
+[2021-12-27 08:03:03.213] [sharedprocess] [info] Installing extension: mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:03.213] [sharedprocess] [info] Installing extension: rogalmic.bash-debug
+[2021-12-27 08:03:03.214] [sharedprocess] [info] Installing extension: timonwong.shellcheck
+[2021-12-27 08:03:03.215] [sharedprocess] [info] Extension is already requested to install timonwong.shellcheck
+[2021-12-27 08:03:03.215] [sharedprocess] [info] Extension is already requested to install rogalmic.bash-debug
+[2021-12-27 08:03:03.216] [sharedprocess] [info] Extension is already requested to install timonwong.shellcheck
+[2021-12-27 08:03:03.216] [sharedprocess] [info] Extension is already requested to install mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:03.217] [sharedprocess] [info] Extension is already requested to install rogalmic.bash-debug
+[2021-12-27 08:03:03.218] [sharedprocess] [info] Extension is already requested to install timonwong.shellcheck
+[2021-12-27 08:03:03.218] [sharedprocess] [info] Extension is already requested to install foxundermoon.shell-format
+[2021-12-27 08:03:03.220] [sharedprocess] [info] Extension is already requested to install mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:03.221] [sharedprocess] [info] Extension is already requested to install rogalmic.bash-debug
+[2021-12-27 08:03:03.221] [sharedprocess] [info] Extension is already requested to install timonwong.shellcheck
+[2021-12-27 08:03:03.222] [sharedprocess] [info] Extension is already requested to install formulahendry.code-runner
+[2021-12-27 08:03:03.223] [sharedprocess] [info] Extension is already requested to install foxundermoon.shell-format
+[2021-12-27 08:03:03.223] [sharedprocess] [info] Extension is already requested to install mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:03.224] [sharedprocess] [info] Extension is already requested to install rogalmic.bash-debug
+[2021-12-27 08:03:03.224] [sharedprocess] [info] Extension is already requested to install timonwong.shellcheck
+[2021-12-27 08:03:04.881] [sharedprocess] [info] Downloaded extension: cab404.vscode-direnv /home/me/.config/VSCodium/CachedExtensionVSIXs/cab404.vscode-direnv-1.0.0
+[2021-12-27 08:03:04.951] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.a9aa2f12-e115-4efa-8e03-8365b3582a75: cab404.vscode-direnv
+[2021-12-27 08:03:04.963] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/cab404.vscode-direnv-1.0.0
+[2021-12-27 08:03:04.966] [sharedprocess] [info] Extracting completed. cab404.vscode-direnv
+[2021-12-27 08:03:04.989] [sharedprocess] [info] Downloaded extension: foxundermoon.shell-format /home/me/.config/VSCodium/CachedExtensionVSIXs/foxundermoon.shell-format-7.0.1
+[2021-12-27 08:03:05.036] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.aab40bfa-294f-4bf5-bd30-66f828cbbae7: foxundermoon.shell-format
+[2021-12-27 08:03:05.046] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/foxundermoon.shell-format-7.0.1
+[2021-12-27 08:03:05.049] [sharedprocess] [info] Extracting completed. foxundermoon.shell-format
+[2021-12-27 08:03:05.410] [sharedprocess] [info] Downloaded extension: rogalmic.bash-debug /home/me/.config/VSCodium/CachedExtensionVSIXs/rogalmic.bash-debug-0.3.9
+[2021-12-27 08:03:05.473] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner /home/me/.config/VSCodium/CachedExtensionVSIXs/formulahendry.code-runner-0.11.6
+[2021-12-27 08:03:06.434] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.6e557662-18d1-4f98-abb8-57222ea40931: formulahendry.code-runner
+[2021-12-27 08:03:06.437] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/formulahendry.code-runner-0.11.6
+[2021-12-27 08:03:06.438] [sharedprocess] [info] Extracting completed. formulahendry.code-runner
+[2021-12-27 08:03:06.680] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.d5d75535-5e68-4641-b395-1cb981ce81ee: rogalmic.bash-debug
+[2021-12-27 08:03:06.692] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/rogalmic.bash-debug-0.3.9
+[2021-12-27 08:03:06.696] [sharedprocess] [info] Extracting completed. rogalmic.bash-debug
+[2021-12-27 08:03:07.132] [sharedprocess] [info] Downloaded extension: mads-hartmann.bash-ide-vscode /home/me/.config/VSCodium/CachedExtensionVSIXs/mads-hartmann.bash-ide-vscode-1.11.0
+[2021-12-27 08:03:09.832] [sharedprocess] [info] Downloaded extension: timonwong.shellcheck /home/me/.config/VSCodium/CachedExtensionVSIXs/timonwong.shellcheck-0.18.3
+[2021-12-27 08:03:11.326] [sharedprocess] [info] Installing extension: jetmartin.bats
+[2021-12-27 08:03:12.900] [sharedprocess] [info] Downloaded extension: jetmartin.bats /home/me/.config/VSCodium/CachedExtensionVSIXs/jetmartin.bats-0.1.8
+[2021-12-27 08:03:13.410] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.a7aecc6d-0cc8-4523-97e0-7358fd0572f1: jetmartin.bats
+[2021-12-27 08:03:13.426] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/jetmartin.bats-0.1.8
+[2021-12-27 08:03:13.431] [sharedprocess] [info] Extracting completed. jetmartin.bats
+[2021-12-27 08:03:13.434] [sharedprocess] [info] Extension installed successfully: jetmartin.bats
+[2021-12-27 08:03:13.504] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.0c414efb-9ed1-402b-95df-865888f3bc98: timonwong.shellcheck
+[2021-12-27 08:03:13.518] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/timonwong.shellcheck-0.18.3
+[2021-12-27 08:03:13.523] [sharedprocess] [info] Extracting completed. timonwong.shellcheck
+[2021-12-27 08:03:17.112] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.1294c822-d41a-46f5-b71c-9c2ca53cc347: mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:17.122] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/mads-hartmann.bash-ide-vscode-1.11.0
+[2021-12-27 08:03:17.125] [sharedprocess] [info] Extracting completed. mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:17.785] [sharedprocess] [info] Downloaded extension: pinage404.bash-extension-pack /home/me/.config/VSCodium/CachedExtensionVSIXs/pinage404.bash-extension-pack-1.0.0
+[2021-12-27 08:03:17.806] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.087e685e-c3b5-4ea4-9073-4b4672b49912: pinage404.bash-extension-pack
+[2021-12-27 08:03:17.816] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/pinage404.bash-extension-pack-1.0.0
+[2021-12-27 08:03:17.818] [sharedprocess] [info] Extracting completed. pinage404.bash-extension-pack
+[2021-12-27 08:03:17.823] [sharedprocess] [info] Extension installed successfully: cab404.vscode-direnv
+[2021-12-27 08:03:17.823] [sharedprocess] [info] Extension installed successfully: foxundermoon.shell-format
+[2021-12-27 08:03:17.824] [sharedprocess] [info] Extension installed successfully: formulahendry.code-runner
+[2021-12-27 08:03:17.825] [sharedprocess] [info] Extension installed successfully: rogalmic.bash-debug
+[2021-12-27 08:03:17.825] [sharedprocess] [info] Extension installed successfully: timonwong.shellcheck
+[2021-12-27 08:03:17.826] [sharedprocess] [info] Extension installed successfully: mads-hartmann.bash-ide-vscode
+[2021-12-27 08:03:17.827] [sharedprocess] [info] Extension installed successfully: pinage404.bash-extension-pack

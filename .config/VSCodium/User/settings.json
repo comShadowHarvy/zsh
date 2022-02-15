@@ -1,0 +1,5 @@
+{
+    "gitlens.hovers.currentLine.over": "line",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open"
+}

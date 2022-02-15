@@ -1,0 +1,9 @@
+[2021-12-27 07:43:21.016] Starting Git Graph ...
+[2021-12-27 07:43:21.151] Using git (version: 2.34.1)
+[2021-12-27 07:43:21.166] Started Git Graph - Ready to use!
+[2021-12-27 07:43:21.167] Searching workspace for new repos ...
+[2021-12-27 07:43:21.181] > git rev-parse --show-toplevel
+[2021-12-27 07:43:21.191] Added new repo: /home/me/bashbunny-payloads
+[2021-12-27 07:43:21.240] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2021-12-27 07:43:21.243] Completed searching workspace for new repos
+[2021-12-27 07:43:21.243] Showing "Git Graph" Status Bar Item

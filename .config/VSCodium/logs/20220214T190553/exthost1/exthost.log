@@ -1,0 +1,29 @@
+[2022-02-14 19:06:04.733] [exthost] [info] Extension host with pid 2770089 started
+[2022-02-14 19:06:04.733] [exthost] [info] Skipping acquiring lock for /home/me/.config/VSCodium/User/workspaceStorage/b44da1e25a5290b0bda0d8f3cb1ba818.
+[2022-02-14 19:06:05.292] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-02-14 19:06:05.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-02-14 19:06:05.338] [exthost] [info] ExtensionService#_doActivateExtension buianhthang.gitflow, startup: true, activationEvent: '*'
+[2022-02-14 19:06:05.368] [exthost] [info] ExtensionService#_doActivateExtension cab404.vscode-direnv, startup: true, activationEvent: '*'
+[2022-02-14 19:06:05.407] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2022-02-14 19:06:05.499] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2022-02-14 19:06:07.000] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-02-14 19:06:07.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-02-14 19:06:07.599] [exthost] [info] Eager extensions activated
+[2022-02-14 19:06:07.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:07.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:07.841] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:08.435] [exthost] [info] ExtensionService#_doActivateExtension entepe85.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:08.839] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:10.839] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:11.628] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 19:06:13.263] [exthost] [error] Activating extension eamodio.gitlens failed due to an error:
+[2022-02-14 19:06:13.263] [exthost] [error] Error: command 'gitlens.key.left' already exists
+	at u.registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:28683)
+	at Object.registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:107:30423)
+	at /home/me/.vscode-oss/extensions/eamodio.gitlens-11.7.0/dist/gitlens.js:31:54512
+	at Array.map (<anonymous>)
+	at new Keyboard (/home/me/.vscode-oss/extensions/eamodio.gitlens-11.7.0/dist/gitlens.js:31:54494)
+	at Function.initialize (/home/me/.vscode-oss/extensions/eamodio.gitlens-11.7.0/dist/gitlens.js:40:12078)
+	at activate (/home/me/.vscode-oss/extensions/eamodio.gitlens-11.7.0/dist/gitlens.js:40:198746)
+	at async Promise.all (index 0)
+[2022-02-14 19:06:13.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

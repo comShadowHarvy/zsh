@@ -1,0 +1,34 @@
+[2021-12-27 12:42:41.762] [exthost] [info] Extension host with pid 638742 started
+[2021-12-27 12:42:41.763] [exthost] [info] Skipping acquiring lock for /home/me/.config/VSCodium/User/workspaceStorage/b44da1e25a5290b0bda0d8f3cb1ba818.
+[2021-12-27 12:42:42.019] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onFileSystem:gitlens'
+[2021-12-27 12:42:42.131] [exthost] [info] ExtensionService#_doActivateExtension entepe85.gitlens, startup: false, activationEvent: 'onFileSystem:gitlens'
+[2021-12-27 12:42:42.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-27 12:42:42.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-27 12:42:42.263] [exthost] [info] ExtensionService#_doActivateExtension buianhthang.gitflow, startup: true, activationEvent: '*'
+[2021-12-27 12:42:42.284] [exthost] [info] ExtensionService#_doActivateExtension cab404.vscode-direnv, startup: true, activationEvent: '*'
+[2021-12-27 12:42:42.329] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2021-12-27 12:42:42.388] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2021-12-27 12:42:43.030] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: eamodio.gitlens
+[2021-12-27 12:42:43.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-27 12:42:43.192] [exthost] [info] Eager extensions activated
+[2021-12-27 12:42:43.273] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 12:42:43.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 12:42:43.294] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 12:42:43.983] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 12:42:44.073] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-27 12:42:44.262] [exthost] [error] Activating extension entepe85.gitlens failed due to an error:
+[2021-12-27 12:42:44.263] [exthost] [error] Error: command 'gitlens.key.left' already exists
+	at registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:29537)
+	at Object.registerCommand (/usr/share/vscodium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:21205)
+	at /home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432990
+	at Array.map (<anonymous>)
+	at new Keyboard (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:432971)
+	at Function.initialize (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:511354)
+	at g (/home/me/.vscode-oss/extensions/entepe85.gitlens-11.0.2/dist/gitlens.js:2:627544)
+[2021-12-27 12:42:44.787] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-27 12:49:48.091] [exthost] [info] ExtensionService#_doActivateExtension foxundermoon.shell-format, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 12:49:48.102] [exthost] [info] ExtensionService#_doActivateExtension mads-hartmann.bash-ide-vscode, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 12:49:48.212] [exthost] [info] ExtensionService#_doActivateExtension timonwong.shellcheck, startup: false, activationEvent: 'onLanguage:shellscript'
+[2021-12-27 12:50:44.698] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-27 12:50:44.778] [exthost] [warning] {"name":"Canceled"}
+[2021-12-27 12:50:44.781] [exthost] [info] Extension host with pid 638742 exiting with code 0

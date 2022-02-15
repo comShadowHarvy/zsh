@@ -1,0 +1,16 @@
+Validating found git in: git
+Using git 2.34.1 from git
+> git rev-parse --git-dir
+Open repository: /home/me/bashbunny-payloads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/me/bashbunny-payloads/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :payloads/library/credentials/DumpCreds/payload.txt
+> git ls-files --stage -- /home/me/bashbunny-payloads/payloads/library/credentials/DumpCreds/payload.txt
+> git cat-file -s 38f59e597218ffa3c4cd030dcdf1a5f934a66afe

@@ -1,0 +1,9 @@
+[2022-02-15T00:06:07.508Z] Validating found git in: git
+[2022-02-15T00:06:07.551Z] Using git 2.35.1 from git
+[2022-02-15T00:06:07.665Z] > git rev-parse --git-dir [5ms]
+[2022-02-15T00:06:07.686Z] Open repository: /home/me/bashbunny-payloads
+[2022-02-15T00:06:12.995Z] > git symbolic-ref --short HEAD [61ms]
+[2022-02-15T00:06:13.160Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [150ms]
+[2022-02-15T00:06:13.206Z] > git remote --verbose [14ms]
+[2022-02-15T00:06:13.207Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+[2022-02-15T00:06:13.292Z] > git config --get commit.template [9ms]

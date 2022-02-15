@@ -1,0 +1,7 @@
+[2022-02-14 19:05:54.099] [main] [info] update#setState idle
+[2022-02-14 19:05:54.290] [main] [info] ExtensionHostStarterWorker created
+[2022-02-14 19:06:00.410] [main] [info] Starting extension host with pid 2770089 (fork() took 28 ms).
+[2022-02-14 19:06:00.411] [main] [info] ExtensionHostStarterWorker.start() took 36 ms.
+[2022-02-14 19:06:11.599] [main] [info] Enabling inspect port on extension host with pid 2770089.
+[2022-02-14 19:06:24.102] [main] [info] update#setState checking for updates
+[2022-02-14 19:06:25.484] [main] [info] update#setState idle

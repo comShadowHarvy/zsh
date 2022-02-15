@@ -1,0 +1,45 @@
+[2022-02-14 19:06:04.158] [sharedprocess] [info] Starting worker process with pid 2770128 (type: fileWatcher, window: 1).
+[2022-02-14 19:06:07.999] [sharedprocess] [info] Getting Manifest... esbenp.prettier-vscode
+[2022-02-14 19:06:08.015] [sharedprocess] [info] Getting Manifest... formulahendry.code-runner
+[2022-02-14 19:06:08.021] [sharedprocess] [info] Getting Manifest... timonwong.shellcheck
+[2022-02-14 19:06:22.378] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2022-02-14 19:06:22.382] [sharedprocess] [info] Installing extension: timonwong.shellcheck
+[2022-02-14 19:06:22.389] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-02-14 19:06:39.191] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner /home/me/.config/VSCodium/CachedExtensionVSIXs/formulahendry.code-runner-0.11.7
+[2022-02-14 19:06:39.889] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.eb883cb7-e408-4c90-9a85-cee23d2ac578: formulahendry.code-runner
+[2022-02-14 19:06:39.902] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/formulahendry.code-runner-0.11.7
+[2022-02-14 19:06:39.909] [sharedprocess] [info] Extracting completed. formulahendry.code-runner
+[2022-02-14 19:06:39.923] [sharedprocess] [info] Extension installed successfully: formulahendry.code-runner
+[2022-02-14 19:06:55.885] [sharedprocess] [info] Getting Manifest... vscode.smali
+[2022-02-14 19:06:56.635] [sharedprocess] [info] Installing extension: vscode.smali
+[2022-02-14 19:06:58.435] [sharedprocess] [info] Downloaded extension: vscode.smali /home/me/.config/VSCodium/CachedExtensionVSIXs/vscode.smali-1.0.0
+[2022-02-14 19:06:58.535] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.b832f246-0736-4f67-887a-a98e990a4919: vscode.smali
+[2022-02-14 19:06:58.548] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/vscode.smali-1.0.0
+[2022-02-14 19:06:58.552] [sharedprocess] [info] Extracting completed. vscode.smali
+[2022-02-14 19:06:58.557] [sharedprocess] [info] Extension installed successfully: vscode.smali
+[2022-02-14 19:07:01.895] [sharedprocess] [info] Downloaded extension: timonwong.shellcheck /home/me/.config/VSCodium/CachedExtensionVSIXs/timonwong.shellcheck-0.18.7
+[2022-02-14 19:07:04.010] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.9e77b1b5-760b-472e-b302-07314028a113: timonwong.shellcheck
+[2022-02-14 19:07:04.022] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/timonwong.shellcheck-0.18.7
+[2022-02-14 19:07:04.029] [sharedprocess] [info] Extracting completed. timonwong.shellcheck
+[2022-02-14 19:07:04.039] [sharedprocess] [info] Extension installed successfully: timonwong.shellcheck
+[2022-02-14 19:07:07.710] [sharedprocess] [info] Getting Manifest... loyieking.smalise
+[2022-02-14 19:07:07.891] [sharedprocess] [info] Installing extension: loyieking.smalise
+[2022-02-14 19:07:11.893] [sharedprocess] [info] Getting Manifest... surendrajat.apklab
+[2022-02-14 19:07:12.094] [sharedprocess] [info] Installing extension: surendrajat.apklab
+[2022-02-14 19:07:12.467] [sharedprocess] [info] Getting Manifest... loyieking.smalise
+[2022-02-14 19:07:13.194] [sharedprocess] [info] Downloaded extension: loyieking.smalise /home/me/.config/VSCodium/CachedExtensionVSIXs/loyieking.smalise-0.0.8
+[2022-02-14 19:07:13.230] [sharedprocess] [info] Extension is already requested to install loyieking.smalise
+[2022-02-14 19:07:13.640] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.b4c1a9ee-3c21-4e64-9657-3b8ded73d834: loyieking.smalise
+[2022-02-14 19:07:13.651] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/loyieking.smalise-0.0.8
+[2022-02-14 19:07:13.657] [sharedprocess] [info] Extracting completed. loyieking.smalise
+[2022-02-14 19:07:13.659] [sharedprocess] [info] Extension installed successfully: loyieking.smalise
+[2022-02-14 19:07:14.417] [sharedprocess] [info] Downloaded extension: surendrajat.apklab /home/me/.config/VSCodium/CachedExtensionVSIXs/surendrajat.apklab-1.6.0
+[2022-02-14 19:07:14.481] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.ab1deee3-a96e-41b7-a322-264c8e29d477: surendrajat.apklab
+[2022-02-14 19:07:14.512] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/surendrajat.apklab-1.6.0
+[2022-02-14 19:07:14.517] [sharedprocess] [info] Extracting completed. surendrajat.apklab
+[2022-02-14 19:07:14.519] [sharedprocess] [info] Extension installed successfully: surendrajat.apklab
+[2022-02-14 19:07:15.781] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/me/.config/VSCodium/CachedExtensionVSIXs/esbenp.prettier-vscode-9.2.0
+[2022-02-14 19:07:17.024] [sharedprocess] [info] Extracted extension to /home/me/.vscode-oss/extensions/.d5b2c830-53fb-40cf-9cbd-159fa712fdf3: esbenp.prettier-vscode
+[2022-02-14 19:07:17.037] [sharedprocess] [info] Renamed to /home/me/.vscode-oss/extensions/esbenp.prettier-vscode-9.2.0
+[2022-02-14 19:07:17.042] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-02-14 19:07:17.052] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode

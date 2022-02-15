@@ -1,0 +1,31 @@
+[2021-12-27 19:50:44.527] [main] [info] update#setState idle
+[2021-12-27 19:50:44.726] [main] [info] ExtensionHostStarterWorker created
+[2021-12-27 19:50:48.987] [main] [info] Starting extension host with pid 695796 (fork() took 24 ms).
+[2021-12-27 19:51:14.529] [main] [info] update#setState checking for updates
+[2021-12-27 19:51:16.305] [main] [info] update#setState idle
+[2021-12-27 20:51:14.533] [main] [info] update#setState checking for updates
+[2021-12-27 20:51:15.648] [main] [info] update#setState idle
+[2021-12-27 21:51:14.536] [main] [info] update#setState checking for updates
+[2021-12-27 21:51:16.306] [main] [info] update#setState idle
+[2021-12-27 22:51:14.539] [main] [info] update#setState checking for updates
+[2021-12-27 22:51:15.996] [main] [info] update#setState idle
+[2021-12-27 23:51:14.545] [main] [info] update#setState checking for updates
+[2021-12-27 23:51:15.944] [main] [info] update#setState idle
+[2021-12-28 00:51:14.548] [main] [info] update#setState checking for updates
+[2021-12-28 00:51:15.729] [main] [info] update#setState idle
+[2021-12-28 01:51:14.551] [main] [info] update#setState checking for updates
+[2021-12-28 01:51:15.112] [main] [info] update#setState idle
+[2021-12-28 02:51:14.554] [main] [info] update#setState checking for updates
+[2021-12-28 02:51:16.007] [main] [info] update#setState idle
+[2021-12-28 03:51:14.556] [main] [info] update#setState checking for updates
+[2021-12-28 03:51:15.730] [main] [info] update#setState idle
+[2021-12-28 04:51:14.559] [main] [info] update#setState checking for updates
+[2021-12-28 04:51:15.821] [main] [info] update#setState idle
+[2021-12-28 05:51:14.563] [main] [info] update#setState checking for updates
+[2021-12-28 05:51:15.554] [main] [info] update#setState idle
+[2021-12-28 06:51:14.566] [main] [info] update#setState checking for updates
+[2021-12-28 06:51:15.659] [main] [info] update#setState idle
+[2021-12-28 07:51:14.569] [main] [info] update#setState checking for updates
+[2021-12-28 07:51:15.346] [main] [info] update#setState idle
+[2021-12-28 08:38:01.170] [main] [info] Waiting for extension host with pid 695796 to exit.
+[2021-12-28 08:38:01.240] [main] [info] Extension host with pid 695796 exited with code: 0, signal: null.

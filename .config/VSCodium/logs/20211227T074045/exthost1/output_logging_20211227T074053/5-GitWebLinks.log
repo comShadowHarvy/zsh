@@ -1,0 +1,3 @@
+[07:41:43.085] Activating extension.
+[07:41:43.086] Executing git -c core.quotepath=false --version
+[07:41:43.205] Workspace folders changed: { added: [], removed: [] }

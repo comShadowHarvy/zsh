@@ -1,0 +1,8 @@
+[07:43:21.031] Activating extension.
+[07:43:21.031] Executing git -c core.quotepath=false --version
+[07:43:21.103] Workspace folders changed: { added: [ 'file:///home/me/bashbunny-payloads' ], removed: [] }
+[07:43:21.104] Adding workspace folder 'file:///home/me/bashbunny-payloads'.
+[07:43:21.105] Searching for Git repositories in workspace '/home/me/bashbunny-payloads'...
+[07:43:21.105] Searching up from the workspace root...
+[07:43:21.185] Found a repository at '/home/me/bashbunny-payloads'.
+[07:43:21.186] Workspace details: { uri: 'file:///home/me/bashbunny-payloads', hasRepositories: true }

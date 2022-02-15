@@ -1,0 +1,31 @@
+[Info  - 12:49:50 p.m.] BashLanguageServer initializing...
+Analyzing files matching glob "**/*@(.sh|.inc|.bash|.command)" inside /home/me/bashbunny-payloads
+Glob resolved with 26 files after 0.271 seconds
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/cucumber.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/debug.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/ducky_lang.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/get.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/get2_dhclient.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/mac_happy.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/requiretool.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/run.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/runpayload.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/setkb.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/wait_for_notpresent.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/wait_for_present.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/wait.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/extensions/waiteject.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/credentials/BunnyTap/alexa1m.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/credentials/BunnyTap/install.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/credentials/bushingsBlueTurtle/post.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/credentials/bushingsBlueTurtle/pre.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/credentials/SudoBackdoor/injector/back.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/execution/ShellExec/evil.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/exfiltration/TwoStageMac/second-stage.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/general/BashBunny_Manager/panel/shutdown.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/prank/macDesktop/macWallpaper.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/recon/LinuxInfoGrabber/recon.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/recon/rdp_checker/install.sh
+Analyzing file:///home/me/bashbunny-payloads/payloads/library/remote_access/LinuxReverseShell/a.sh
+Analyzer finished after 0.434 seconds
+[Info  - 12:49:51 p.m.] BashLanguageServer initialized
