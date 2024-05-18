@@ -335,4 +335,3 @@ grep -qxF '[ -f ~/antigen.zsh ] && source ~/antigen.zsh' ~/.zshrc || echo '[ -f 
 
 echo "Setup complete. All selected packages have been installed and configured."
 loading_bar
-
