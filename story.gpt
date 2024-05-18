@@ -1,0 +1,14 @@
+tools: sys.exec, sys.write, sys.http.get, sys.read, sys.ls
+description: Deploys a storybook
+
+Perform the following actions including subtasks.
+
+1. Ensure ansible is installed using pipenv
+2. Create an inventory file for ubuntu@xxxx.amazonaws.com
+3. Create a playbook for installing and starting apache
+4. Run the playbook against the host. Make sure to use pipenv run.
+5. Verify that the host is serving web requests
+6. Create a webpage using the contents of the public/stories directory in a new directory called dist.
+7. Copy images from public/stories to the appropriate location in dist. Update the image references if needed.
+8. Create a playbook to deploy the site in dist
+9. Run the playbook against the webserver

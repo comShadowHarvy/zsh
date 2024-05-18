@@ -1,0 +1,6 @@
+chat: true
+tools: sys.http.get
+
+Get the weather from http://wttr.in/
+
+What is today's date. You can get it from http://worldtimeapi.org/api/timezone/America/New_York
