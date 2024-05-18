@@ -118,6 +118,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 #
 # Antigen Theme
 #antigen theme jdavis/zsh-files themes/jdavis
-antigen theme romkatv/powerlevel10k
+#antigen theme romkatv/powerlevel10k
 
 antigen apply
